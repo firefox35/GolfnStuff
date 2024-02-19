@@ -12,6 +12,17 @@ body {
   padding-right: 2%;
 }
   
+#dropdown-menu .submenu {
+  display: none;
+}
+
+#dropdown-menu li:hover .submenu {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
