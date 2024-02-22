@@ -95,7 +95,7 @@ Header
 
 - Displays the Logo and the name of the brand to be promoted.
 
-  ![GolfNStuff Wines](static/images/hw-header.PNG)
+  ![GolfNStuff](static/images/hw-header.PNG)
 
 Navigation Menu
 
