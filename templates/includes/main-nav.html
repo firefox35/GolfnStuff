@@ -6,7 +6,7 @@
     <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="{% url 'home'%}">Home <span class="sr-only">(current)</span></a>
         </li>
         
         <li class="list-inline-item dropdown">
@@ -19,11 +19,11 @@
             aria-expanded="false"
           >Clubs</a>
           <div class="dropdown-menu border-0"aria-labelledby="user-options">
-            <a href="#" class="dropdown-item">Irons</a>
-            <a href="#" class="dropdown-item">Drivers</a>
-            <a href="#" class="dropdown-item">Woods</a>
-            <a href="#" class="dropdown-item">Putters</a>
-            <a href="#" class="dropdown-item">Wedges</a>
+            <a href="{% url 'products'%}?category=irons" class="dropdown-item">Irons</a>
+            <a href="{% url 'products'%}?category=drivers" class="dropdown-item">Drivers</a>
+            <a href="{% url 'products'%}?category=woods" class="dropdown-item">Woods</a>
+            <a href="{% url 'products'%}?category=putters" class="dropdown-item">Putters</a>
+            <a href="{% url 'products'%}?category=wedges" class="dropdown-item">Wedges</a>
           </div>
         </li>
         <li class="list-inline-item dropdown">
@@ -36,11 +36,11 @@
             aria-expanded="false"
           >Clothing</a>
           <div class="dropdown-menu border-0"aria-labelledby="user-options">
-            <a href="#" class="dropdown-item">Shirts</a>
-            <a href="#" class="dropdown-item">Trousers</a>
-            <a href="#" class="dropdown-item">Tops</a>
-            <a href="#" class="dropdown-item">Jackets</a>
-            <a href="#" class="dropdown-item">Footwear</a>
+            <a href="{% url 'products'%}?category=shirts" class="dropdown-item">Shirts</a>
+            <a href="{% url 'products'%}?category=trousers" class="dropdown-item">Trousers</a>
+            <a href="{% url 'products'%}?category=tops" class="dropdown-item">Tops</a>
+            <a href="{% url 'products'%}?category=jackets" class="dropdown-item">Jackets</a>
+            <a href="{% url 'products'%}?category=footwear" class="dropdown-item">Footwear</a>
           </div>
         </li>
         <li class="list-inline-item dropdown">
@@ -53,11 +53,11 @@
             aria-expanded="false"
           >Accessories</a>
           <div class="dropdown-menu border-0"aria-labelledby="user-options">
-            <a href="#" class="dropdown-item">Golf Balls</a>
-            <a href="#" class="dropdown-item">Hats</a>
-            <a href="#" class="dropdown-item">Trolleys &amp; Bags</a>
-            <a href="#" class="dropdown-item">GPS Watches</a>
-            <a href="#" class="dropdown-item">Gloves &amp; Tees</a>
+            <a href="{% url 'products'%}?category=balls" class="dropdown-item">Golf Balls</a>
+            <a href="{% url 'products'%}?category=hats" class="dropdown-item">Hats</a>
+            <a href="{% url 'products'%}?category=trolleys" class="dropdown-item">Trolleys &amp; Bags</a>
+            <a href="{% url 'products'%}?category=gps_watches" class="dropdown-item">GPS Watches</a>
+            <a href="{% url 'products'%}?category=gloves_tees" class="dropdown-item">Gloves &amp; Tees</a>
           </div>
         </li>
         <li class="list-inline-item dropdown">
@@ -70,10 +70,10 @@
             aria-expanded="false"
           >Products</a>
           <div class="dropdown-menu border-0"aria-labelledby="user-options">
-            <a href="#" class="dropdown-item">by Price</a>
-            <a href="#" class="dropdown-item">by Rating</a>
-            <a href="#" class="dropdown-item">by Category</a>
-            <a href="#" class="dropdown-item">All Products</a>
+            <a href="{% url 'products'%}?category=price" class="dropdown-item">by Price</a>
+            <a href="{% url 'products'%}?category=rating" class="dropdown-item">by Rating</a>
+            <a href="{% url 'products'%}?category=category" class="dropdown-item">by Category</a>
+            <a href="{% url 'products'%}" class="dropdown-item">All Products</a>
           </div>
         </li>
         <li class="list-inline-item dropdown">
@@ -86,15 +86,15 @@
             aria-expanded="false"
           >Deals</a>
           <div class="dropdown-menu border-0"aria-labelledby="user-options">
-            <a href="#" class="dropdown-item">Lessons</a>
-            <a href="#" class="dropdown-item">Vouchers</a>
-            <a href="#" class="dropdown-item">Clearance</a>
-            <a href="#" class="dropdown-item">All Specials</a>
+            <a href="{% url 'products'%}?category=lessons" class="dropdown-item">Lessons</a>
+            <a href="{% url 'products'%}?category=vouchers" class="dropdown-item">Vouchers</a>
+            <a href="{% url 'products'%}?category=clearance" class="dropdown-item">Clearance</a>
+            <a href="{% url 'products'%}?category=specials" class="dropdown-item">All Specials</a>
           </div>
         </li>
         </ul> 
-        <form class="form-inline mt-2 mt-md-0" method="GET" action="">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+        <form class="form-inline mt-2 mt-md-0" method="GET" action="{% url 'products' %}">
+            <input class="form-control mr-sm-2" type="text" name="q" placeholder="Search" aria-label="Search">
             <div class="input-group-append">
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
           </div>

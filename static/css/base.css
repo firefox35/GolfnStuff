@@ -93,7 +93,7 @@ ul {
   }
 
   .logo-font {
-    padding-top: 5%;
+    padding-top: 2%;
   }
   
   /* RESPONSIVE CSS
@@ -117,3 +117,16 @@ ul {
       margin-top: 7rem;
     }
   }
+
+
+   /* Navbar on mobile needs padding */
+  @media (max-width: 991px) {
+    .header-container {
+      padding-top: 116px;
+    }
+
+    body {
+      height: calc(100vh - 116px);
+    }
+  }
+  
