@@ -70,9 +70,9 @@
             aria-expanded="false"
           >Products</a>
           <div class="dropdown-menu border-0"aria-labelledby="user-options">
-            <a href="{% url 'products'%}?category=price" class="dropdown-item">by Price</a>
-            <a href="{% url 'products'%}?category=rating" class="dropdown-item">by Rating</a>
-            <a href="{% url 'products'%}?category=category" class="dropdown-item">by Category</a>
+            <a href="{% url 'products'%}?sort=price&direction=asc" class="dropdown-item">by Price</a>
+            <a href="{% url 'products'%}?sort=rating&direction=desc" class="dropdown-item">by Rating</a>
+            <a href="{% url 'products'%}?sort=category&direction=asc" class="dropdown-item">by Category</a>
             <a href="{% url 'products'%}" class="dropdown-item">All Products</a>
           </div>
         </li>
