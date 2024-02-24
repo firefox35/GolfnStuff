@@ -95,6 +95,11 @@ ul {
   .logo-font {
     padding-top: 2%;
   }
+
+  a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
+}
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
