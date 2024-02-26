@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-f4*tmgf6xitirtfa2iuz)0ancca6g%m4-p#x%9kekn=!od3py^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-firefox35-golfnstuff-nwdpre5fyy.us2.codeanyapp.com', '8000-firefox35-golfnstuff-krjda4efk3h.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['8000-firefox35-golfnstuff-nwdpre5fyy.us2.codeanyapp.com', '8000-firefox35-golfnstuff-krjda4efk3h.ws-eu108.gitpod.io','8000-firefox35-golfnstuff-la2cdtf2lur.ws-eu108.gitpod.io',]
 
 
 # Application definition
