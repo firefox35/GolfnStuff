@@ -27,9 +27,9 @@ SECRET_KEY = 'django-insecure-f4*tmgf6xitirtfa2iuz)0ancca6g%m4-p#x%9kekn=!od3py^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-firefox35-golfnstuff-nwdpre5fyy.us2.codeanyapp.com', '8000-firefox35-golfnstuff-krjda4efk3h.ws-eu108.gitpod.io','8000-firefox35-golfnstuff-la2cdtf2lur.ws-eu108.gitpod.io',]
+ALLOWED_HOSTS = [ '8000-firefox35-golfnstuff-la2cdtf2lur.ws-eu108.gitpod.io']
 
-
+CSRF_TRUSTED_ORIGINS = ['https://8000-firefox35-golfnstuff-la2cdtf2lur.ws-eu108.gitpod.io']
 # Application definition
 
 INSTALLED_APPS = [
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    'crispy_forms',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -48,6 +49,7 @@ INSTALLED_APPS = [
     'lessons',
     'contact',
     'reviews',
+    'crispy_bootstrap5',
 ]
 
 MIDDLEWARE = [
@@ -58,7 +60,11 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
 ]
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
 
 ROOT_URLCONF = 'golfnstuff.urls'
 
@@ -77,6 +83,10 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]

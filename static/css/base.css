@@ -8,6 +8,13 @@ body {
     color: #5a5a5a;
   }
 
+.form {
+    width: 50%;
+    margin: 3% auto;
+    box-shadow: var(--smal-box-shadow);
+    border-radius: 5px;
+}
+
 .form-inline{
   padding-right: 2%;
 }
