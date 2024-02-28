@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'contact',
     'reviews',
     'crispy_bootstrap5',
+    'cart',
 ]
 
 MIDDLEWARE = [

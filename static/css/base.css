@@ -18,6 +18,17 @@ body {
 .form-inline{
   padding-right: 2%;
 }
+
+.card {
+  height: 75%;
+  margin-top: 1rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
   
 #dropdown-menu .submenu {
   display: none;
