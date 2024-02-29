@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %} View Comments {% endblock %}
+
+{% block content %}
+<div class="bg-image text-center shadow-1-strong rounded mb-5 text-black"
+    style="background-image: url('');">
+    <h1 class="text-center p-2 text-red">Golf Equipment Reviews</h1>
+    <p class="text-center p-2 text-black">Click on the Wine to view details</p>
+    <div class="container d-flex flex-row flex-wrap justify-content-center">
+        {% for review in reviews %}
+        <a href="{% url 'review_detail' review.id %}" class="wine" aria-label="Click to view {{ review.title }}">
+            <div class="card m-3" style="width: 18rem;">
+                <img src="{{ review.image.url }}" class="card-img-top img-fluid" alt="{{ review.image_alt }}">
+                <div class="card-body">
+                    <h2 class="card-title">{{ review.title }}</h2>
+                    <span class="card-text">{{ review.description|truncatechars:100|safe}}</span>
+                </div>
+            </div>
+        </a>
+        {% endfor %}        
+    </div>
+</div>
+{% endblock %}

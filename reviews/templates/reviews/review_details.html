@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %} Review Detail- {{comment.title}} {% endblock %}
+
+{% block content %}
+<div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-red" 
+        style="background-image: url('');">
+        <div class="wine-info mt-3 p-1">
+            <div class="wine-img">
+                <img src="{{review.image.url }}" alt="{{ review.image_alt }}" class="review-pic">
+            </div>
+            <div class="review-detail">
+                <h1 class="text-center">{{review.title}}</h1>
+                <p class="text-center">Posted by {{review.user}} on {{review.posted_on}}</p>
+                <hr>
+                <p class="p-3"><strong>Year: </strong>{{review.year}}</p>
+                <p class="p-3"><strong>Type: </strong>{{review.type_of_wine|title}}</p>
+                <p class="p-3"><strong>Origin: </strong>{{review.country|title}}</p>
+                <p class="p-3"><strong>Description: </strong>{{review.description|safe}}</p>
+
+
+                {% if request.user == review.user %}
+                <div class="text center">
+                    <a href="{% url 'edit_review' wine.id %}" class="btn btn-primary w-25">Edit</a>
+                    <a href="{% url 'delete_review' wine.id %}" class="btn btn-primary w-25">Delete</a>
+                </div>
+                {% endif %}
+            </div>
+        </div> 
+</div>
+{% endblock %}
