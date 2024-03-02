@@ -59,6 +59,7 @@ class Product(models.Model):
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()
+    has_sizes = models.BooleanField(default=False, null=True, blank=True)
     degree = models.CharField(max_length=11, choices=WEDGE_DEGREE, default="", blank=True,
         null=True)
     shoe_size = models.CharField(max_length=8, choices=SHOE_SIZES, default="", blank=True,
