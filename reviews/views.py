@@ -12,8 +12,8 @@ from .forms import ReviewForm
 """View home screen"""
 
 
-class index(TemplateView):
-    template_name = "reviews/index.html"
+class main(TemplateView):
+    template_name = "reviews/main.html"
 
 
 """View about list"""

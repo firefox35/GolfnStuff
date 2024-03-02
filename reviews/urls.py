@@ -1,10 +1,10 @@
 from django.urls import path
-from .views import (index, about, AddReview, Reviews,
+from .views import (main, about, AddReview, Reviews,
                     ReviewDetail, DeleteReview, EditReview)
 from . import views
 
 urlpatterns = [
-    path("", index.as_view(), name="home"),
+    path("reviews/", main.as_view(), name="review"),
     path("about/", about.as_view(), name="about"),
     path("add_reviews/", AddReview.as_view(), name="add_review"),
     path("reviews/", Reviews.as_view(), name="reviews"),
