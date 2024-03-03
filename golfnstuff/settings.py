@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'reviews',
     'crispy_bootstrap5',
     'cart',
+    'checkout',
 ]
 
 MIDDLEWARE = [
