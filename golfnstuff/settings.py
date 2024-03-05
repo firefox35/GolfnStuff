@@ -49,9 +49,10 @@ INSTALLED_APPS = [
     'lessons',
     'contact',
     'reviews',
-    'crispy_bootstrap5',
     'cart',
     'checkout',
+
+    'crispy_bootstrap5',
 ]
 
 MIDDLEWARE = [
