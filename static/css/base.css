@@ -91,6 +91,10 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+input[name='q']::placeholder {
+  color: #aab7c4;
+}
+
 .form {
     width: 50%;
     margin: 3% auto;
@@ -124,6 +128,8 @@ a.category-badge > span.badge:hover {
 ul {
   list-style-type: none;
 }
+
+
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
