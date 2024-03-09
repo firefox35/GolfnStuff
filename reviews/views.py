@@ -28,7 +28,7 @@ class about(ListView):
         return self.model.objects.all()[:3]
 
 
-"""View all wines"""
+"""View all reviews"""
 
 
 class Reviews(ListView):
