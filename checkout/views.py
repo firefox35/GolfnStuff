@@ -5,6 +5,7 @@ from django.conf import settings
 
 from .forms import OrderForm
 from .models import Order, OrderLineItem
+
 from products.models import Product
 from profiles.forms import UserProfileForm
 from profiles.models import UserProfile
@@ -89,7 +90,8 @@ def checkout(request):
     else:
         cart = request.session.get('cart', {})
         if not cart:
-            messages.error(request, "There's nothing in your cart at the moment")
+            messages.error(
+                request, "There's nothing in your cart at the moment")
             return redirect(reverse('products'))
 
         current_cart = cart_contents(request)
@@ -121,8 +123,8 @@ def checkout(request):
             order_form = OrderForm()
 
     if not stripe_public_key:
-        messages.warning(request, 'Stripe public key is missing. \
-            Did you forget to set it in your environment?')
+        messages.warnings(request, 'Stripe public key is missing. \
+            Did you forget to set it in your environment? ')
 
     template = 'checkout/checkout.html'
     context = {
