@@ -1,11 +1,12 @@
 from django.shortcuts import render
 from .models import Lessons
+from django.template import loader
 from django.http import HttpResponse
 # Create your views here.
 
 def lesson(request):
     if request.method=="POST":
-            lesson=Lesson()
+            lesson=Lessons()
             name=request.POST.get('name')
             email=request.POST.get('email')
             phone=request.POST.get('phone')
@@ -21,6 +22,7 @@ def lesson(request):
             lesson.time=time
             lesson.comment=comment
             lesson.save()
-            return HttpResponse("<h1>Thanks for contacting us, we will response shortly.</h1>")
+            template = render_to_string('lesson/response.html', context)
+            return HttpResponse(template)
     return render(request, 'lesson/lessons.html')
 # Create your views here.

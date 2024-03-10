@@ -10,8 +10,6 @@ class ReviewForm(forms.ModelForm):
         model = Review
         fields = [
             "title",
-            "item",
-            "brand",
             "product_name",
             "description",
             "image",
@@ -24,8 +22,6 @@ class ReviewForm(forms.ModelForm):
 
         labels = {
             "title": "Review Name",
-            "brand": "Brand Name",
-            "item":"Type of Item",
             "product_name": "Product Name",
             "description": "Description",
             "image": "Product Image",

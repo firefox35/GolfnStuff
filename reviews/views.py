@@ -31,7 +31,7 @@ class about(ListView):
 """View all reviews"""
 
 
-class Reviews(ListView):
+class reviews(ListView):
     template_name = "reviews/reviews.html"
     model = Review
     context_object_name = "reviews"
@@ -53,7 +53,7 @@ class Reviews(ListView):
 """Add a Review"""
 
 
-class ReviewDetail(DetailView):
+class review_detail(DetailView):
     template_name = "reviews/review_detail.html"
     model = Review
     context_object_name = "review"
@@ -62,7 +62,7 @@ class ReviewDetail(DetailView):
 """Add Reviews"""
 
 
-class AddReview(LoginRequiredMixin, CreateView):
+class add_review(LoginRequiredMixin, CreateView):
     template_name = "reviews/add_review.html"
     model = Review
     context_object_name = "reviews"
@@ -77,7 +77,7 @@ class AddReview(LoginRequiredMixin, CreateView):
 """Delete Reviews"""
 
 
-class DeleteReview(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
+class delete_review(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Review
     success_url = '/reviews/'
 
@@ -88,7 +88,7 @@ class DeleteReview(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
 """Edit Reviews"""
 
 
-class EditReview(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
+class edit_review(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
     template_name = "reviews/edit_review.html"
     model = Review
     form_class = ReviewForm

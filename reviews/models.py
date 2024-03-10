@@ -11,55 +11,12 @@ STATUS = ((0, "Draft"), (1, "Published"))
 
 class Review(models.Model):
     
-    TYPE_OF_ITEM = (
-        ("irons", "Irons"),
-        ("drivers", "Drivers"),
-        ("woods", "Woods"),
-        ("putters", "Putters"),
-        ("wedges", "Wedges"),
-        ("shirts", "Shirts"),
-        ("tops", "Tops"),
-        ("jackets", "Jackets"),
-        ("trousers", "Trousers"),
-        ("footwear", "Footwear"),
-        ("golf balls", "Golf Balls"),
-        ("hats", "Hats"),
-        ("trolley", "Trolleys"),
-        ("gps watches", "GPS Watches"),
-        ("tees", "Tees"),
-        ("gloves", "Gloves"),
-    )
-
-    BRAND = (
-        ("adidas", "Adidas"),
-        ("nike", "Nike"),
-        ("srixon", "Srixon"),
-        ("taylormade", "Taylormade"),
-        ("titleist", "Titleist"),
-        ("callaway", "Callaway"),
-        ("footjoy", "Footjoy"),
-        ("under armour", "Under Armour"),
-        ("cobra", "Cobra"),
-        ("motocaddy", "Motocaddy"),
-        ("ping", "Ping"),
-        ("mizuno", "Mizuno"),
-        ("garmin", "Garmin"),
-        ("calvin klien", "Calvin Klien"),
-        ("wilson", "Wilson"),
-        ("bushnell", "Bushnell"),
-        ("calvin klien", "Calvin Klien"),
-    )
-
     """A model to create and manage reviews"""
     user = models.ForeignKey(
         User, related_name="review_owner", on_delete=models.CASCADE)
     title = models.CharField(max_length=300, null=False, blank=False)
-    item = models.CharField(
-        max_length=50, choices=TYPE_OF_ITEM, default=""
-    )
-    brand = models.CharField(max_length=50, choices=BRAND, default="")
     product_name=models.CharField(max_length=30, null=False, blank=False)
-    description = models.CharField(max_length=2000, null=False, blank=False)
+    description = models.TextField(max_length=2000, null=False, blank=False)
     image = ResizedImageField(
         size=[400, 400], quality=75, upload_to='reviews/', force_format='WEBP',
         blank=False, null=False)
