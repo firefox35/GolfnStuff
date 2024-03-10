@@ -76,22 +76,6 @@
             <a href="{% url 'products'%}" class="dropdown-item">All Products</a>
           </div>
         </li>
-        <li class="list-inline-item dropdown">
-          <a
-            class="text-black nav-link"
-            href="#"
-            id="user-options"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >Deals</a>
-          <div class="dropdown-menu border-0"aria-labelledby="user-options">
-            <a href="{% url 'products'%}?category=lessons" class="dropdown-item">Lessons</a>
-            <a href="{% url 'products'%}?category=vouchers" class="dropdown-item">Vouchers</a>
-            <a href="{% url 'products'%}?category=clearance" class="dropdown-item">Clearance</a>
-            <a href="{% url 'products'%}?category=specials" class="dropdown-item">All Specials</a>
-          </div>
-        </li>
         </ul> 
         <form class="form-inline mt-2 mt-md-0" method="GET" action="{% url 'products' %}">
             <input class="form-control mr-sm-2" type="text" name="q" placeholder="Search" aria-label="Search">

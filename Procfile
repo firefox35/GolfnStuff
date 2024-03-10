@@ -1,0 +1,1 @@
+web: gunicorn golfnstuff.wsgi:application

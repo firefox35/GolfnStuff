@@ -4,7 +4,7 @@ from .views import (main, about, add_review, reviews,
 from . import views
 
 urlpatterns = [
-    path("reviews/", main.as_view(), name="review"),
+    path("", main.as_view(), name="review"),
     path("about/", about.as_view(), name="about"),
     path("add_review/", add_review.as_view(), name="add_review"),
     path("reviews/", reviews.as_view(), name="reviews"),

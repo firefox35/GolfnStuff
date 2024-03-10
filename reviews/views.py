@@ -71,7 +71,7 @@ class add_review(LoginRequiredMixin, CreateView):
 
     def form_valid(self, form):
         form.instance.user = self.request.user
-        return super(AddReview, self).form_valid(form)
+        return super(add_review, self).form_valid(form)
 
 
 """Delete Reviews"""

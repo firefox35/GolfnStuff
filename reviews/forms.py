@@ -23,7 +23,7 @@ class ReviewForm(forms.ModelForm):
         labels = {
             "title": "Review Name",
             "product_name": "Product Name",
-            "description": "Description",
+            "description": "Comment",
             "image": "Product Image",
             "image_alt": "Describe Image",
         }

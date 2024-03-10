@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 
 import os
+import dj_database_url
 if os.path.isfile('env.py'):
     import env
 
@@ -29,9 +30,9 @@ SECRET_KEY = 'django-insecure-f4*tmgf6xitirtfa2iuz)0ancca6g%m4-p#x%9kekn=!od3py^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ '8000-firefox35-golfnstuff-la2cdtf2lur.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = [ '8000-firefox35-golfnstuff-la2cdtf2lur.ws-eu108.gitpod.io','golfnstuff-ee9465ae2158.herokuapp.com']
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-firefox35-golfnstuff-la2cdtf2lur.ws-eu108.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-firefox35-golfnstuff-la2cdtf2lur.ws-eu108.gitpod.io','https://golfnstuff-ee9465ae2158.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
@@ -128,12 +129,18 @@ WSGI_APPLICATION = 'golfnstuff.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if 'DATABASE_URL' in os.environ:
+    DATABASE = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-}
+else:    
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+        }
+    }
+
 
 
 # Password validation
