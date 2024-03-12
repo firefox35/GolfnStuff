@@ -1,7 +1,6 @@
-{% extends "base.html" %} {% load i18n %} {% block title %}{% trans "Sign In"
+{% extends "base.html" %} {% load static %} {% load i18n %} {% block title %}{% trans "Sign In"
 %}{% endblock %} {% block content %}
-<div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-black"
-    style="background-color:grey ;">
+<div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-black"style="background-image: url('{% static 'media/putting.jpg' %}');">
     <div class="container text-center">
         <h1>{% trans "Sign In" %}</h1>
         <p>
@@ -9,7 +8,7 @@
             <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}
         </p>
 
-        <form class="form p-2" method="POST" action="{% url 'account_login' %}">
+        <form class="form" method="POST" action="{% url 'account_login' %}">
             {% csrf_token %} {{ form|crispy }} {% if redirect_field_value %}
             <input
             type="hidden"

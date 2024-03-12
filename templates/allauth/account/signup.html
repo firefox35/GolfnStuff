@@ -1,25 +1,24 @@
 {% extends "base.html" %}
-
+{% load static %}
 {% load i18n %}
 
 {% block title %}{% trans "Signup" %}{% endblock %}
 
 {% block content %}
-<div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-black"
-    style="background-color:grey ;">
-<div class="container-text-center">
-    <h1>{% trans "Sign Up" %}</h1>
-        
-    <p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
+<div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-black"style="background-image: url('{% static 'media/lessons.jpg' %}')";>
+    <div class="container-text-center ">
+        <h1>{% trans "Sign Up" %}</h1>
+            
+        <p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
 
-    <form class="form p-2" id="signup_form" method="POST" action="{% url 'account_signup'%}">
-        {% csrf_token %}
-        {{ form|crispy}}
-        {% if redirect_field_value %}
-        <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-        {% endif %}
-        <button type="submit" class="btn btn-primary w-25">Sign Up</button>
-    </form>
-</div>
+        <form class="form" id="signup_form" method="POST" action="{% url 'account_signup'%}">
+            {% csrf_token %}
+            {{ form|crispy}}
+            {% if redirect_field_value %}
+            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+            {% endif %}
+            <button type="submit" class="btn btn-primary w-25">Sign Up</button>
+        </form>
+    </div>
 </div>
 {% endblock %}
