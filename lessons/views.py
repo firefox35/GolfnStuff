@@ -22,7 +22,6 @@ def lesson(request):
             lesson.time=time
             lesson.comment=comment
             lesson.save()
-            template = render_to_string('lesson/response.html', context)
-            return HttpResponse(template)
+            return HttpResponse('lesson/response.html')
     return render(request, 'lesson/lessons.html')
 # Create your views here.
