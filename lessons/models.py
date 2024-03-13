@@ -11,7 +11,13 @@ class Lessons(models.Model):
     time = models.TimeField()
     comment = models.TextField()
 
+    
+    class Meta:
+        verbose_name = "Lesson"
+        verbose_name_plural = "Lesson"
+
     def __str__(self):
         return self.name
+
 
 
