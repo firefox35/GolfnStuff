@@ -15,7 +15,7 @@ class Review(models.Model):
     user = models.ForeignKey(
         User, related_name="review_owner", on_delete=models.CASCADE)
     title = models.CharField(max_length=300, null=False, blank=False)
-    product_name=models.CharField(max_length=30, null=False, blank=False)
+    product_name = models.CharField(max_length=30, null=False, blank=False)
     description = models.TextField(max_length=2000, null=False, blank=False)
     image = ResizedImageField(
         size=[400, 400], quality=75, upload_to='reviews/', force_format='WEBP',

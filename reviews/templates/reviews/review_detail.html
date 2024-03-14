@@ -13,10 +13,9 @@
                 <h1 class="text-center">{{review.title}}</h1>
                 <p class="text-center">Posted by {{review.user}} on {{review.posted_on}}</p>
                 <hr>
-                <p class="p-3"><strong>Name: </strong>{{review.product_item}}</p>
-                <p class="p-3"><strong>Product: </strong>{{review.type_of_wine|title}}</p>
-                <p class="p-3"><strong>Brand: </strong>{{review.country|title}}</p>
-                <p class="p-3"><strong>Description: </strong>{{review.description|safe}}</p>
+                <p class="p-3"><strong>Title: </strong>{{review.title}}</p>
+                <p class="p-3"><strong>Product: </strong>{{review.product_name|title}}</p>
+                <p class="p-3"><strong>Comment:</strong>{{review.description|safe}}</p>
 
 
                 {% if request.user == review.user %}

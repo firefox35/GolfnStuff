@@ -8,7 +8,7 @@
 {% block title %}Add Review{% endblock %} 
 
 {% block content %}
-<div class="bg-light py-3 py-md-5" style="background:lightblue;">
+<div class="bg-light py-3 py-md-5" style="background-image: url('');">
     <div class="container">
       <div class="row justify-content-md-center">
         <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
@@ -30,7 +30,7 @@
                   {{ form.media }}
                   {{ form|crispy }}
                   <div class="text-center">
-                    <a class="btn btn-outline-black rounded-0" href="{% url 'reviews' %}">Cancel</a>
+                    <a class="btn btn-outline-black rounded-0" href="{% url 'add_review' %}">Cancel</a>
                         <button class="btn btn-black rounded-0" type="submit">Add Review</button>
                   </div>
                 </div>

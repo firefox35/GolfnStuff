@@ -72,13 +72,13 @@
     {% block content %}
    
     {% endblock %}
-
+    {% include 'includes/footer.html' %}
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
     {% endblock %}
-    {% include 'includes/footer.html' %}  
+     
 </body>
 
 </html>
