@@ -1,8 +1,8 @@
 # GolfNStuff
 
-GolfNStuff is the one stop shop for all your needs, with top brands to suit every golfer whether your a beginner starting out for the first time or a low handicap golfer, we can provide the best equipment for your tailored needs with a first class service and top professional to give your advice.
+GolfNStuff is the one stop shop for all your needs, with top brands to suit every golfer whether your are young or old starting out for the first time or a low handicap golfer, we can provide the best equipment for your tailored needs with a first class service and top professional to give your advice.
 
-This link is the live version of GolfNStuff (https://heavenly-wines-blog-da6c1e3dc8d4.herokuapp.com)
+This link is the live version of GolfNStuff (https://golfnstuff-ee9465ae2158.herokuapp.com)
 
 ![Mockups](static/images/hw-devices.png)
 
@@ -16,8 +16,28 @@ This link is the live version of GolfNStuff (https://heavenly-wines-blog-da6c1e3
 
 Model
 
-- Wine Model
+- Reviews Model
+![GolfNStuff Model](static/images/reviews-model.PNG)
+
+- Lessons Model
+![GolfNStuff Model](static/images/lesssons-model.PNG)
+
+- Contact Model
+![GolfNStuff Model](static/images/contact-model.PNG)
+
+- Profiles Model
+![GolfNStuff Model](static/images/profiles-model.PNG)
   
+- Home Model
+![GolfNStuff Model](static/images/home-model.PNG)
+
+- Checkout Model
+![GolfNStuff Model](static/images/checkout-model.PNG)
+
+- Products Model
+![GolfNStuff Model](static/images/products-model.PNG)
+
+- Home Model
 ![GolfNStuff Model](static/images/wine-model.PNG)
 
 ## UX Design
@@ -45,43 +65,44 @@ Agile Overview
 
 The project is created along side the GITHUB repository to create milestone and issues that are A MUST HAVE in the projects. To keep track of what needs to be implemented within the project, a bit like building blocks along the way with different elements required to have a fully working website.
 
-This is the link to the User Stories - (https://github.com/users/firefox35/projects/16)
+This is the link to the User Stories - (https://github.com/users/firefox35/projects/18/views/1)
 
 User Stories
 
 A User Story is a piece of functionality the needs to be installed along the way to produce a working website.
 
-1. [USER STORY: Install Django](https://github.com/firefox35/heavenly-wines/issues/1)
-2. [USER STORY: Add Apps and Templates](https://github.com/firefox35/heavenly-wines/issues/2)
-3. [USER STORY: Install Bootstrap](https://github.com/firefox35/heavenly-wines/issues/3)
-4. [USER STORY: Create Header and Footer](https://github.com/firefox35/heavenly-wines/issues/4)
-5. [USER STORY: Create Account Registration](https://github.com/firefox35/heavenly-wines/issues/5)
-6. [USER STORY: Deploy App to Heroku](<https://github.com/firefox35/heavenly-wines/issues/6>)
-7. [USER STORY: Add Wine to Model](https://github.com/firefox35/heavenly-wines/issues/7)
-8. [USER STORY: README File Completed](https://github.com/firefox35/heavenly-wines/issues/8)
-9. [USER STORY: Add a list view of Wines](https://github.com/firefox35/heavenly-wines/issues/9)
-10. [USER STORY: Create a Detail view](https://github.com/firefox35/heavenly-wines/issues/10)
-11. [USER STORY: Create a Delete Function](https://github.com/firefox35/heavenly-wines/issues/11)
-12. [USER STORY: Edit Wine view](https://github.com/firefox35/heavenly-wines/issues/12)
-13. [USER STORY: Add a Search Function to Header](https://github.com/firefox35/heavenly-wines/issues/13)
-14. [USER STORY: Styling of the Website](https://github.com/firefox35/heavenly-wines/issues/14)
+1. [USER STORY: Create project in workspace](https://github.com/firefox35/GolfnStuff/issues/1)
+2. [USER STORY: Create a User Account](https://github.com/firefox35/GolfnStuff/issues/2)
+3. [USER STORY: Create Admin Account](https://github.com/firefox35/GolfnStuff/issues/3)
+4. [USER STORY: Create Homepage](https://github.com/firefox35/GolfnStuff/issues/4)
+5. [USER STORY: Create a Header](https://github.com/firefox35/GolfnStuff/issues/5)
+6. [USER STORY: Create a Footer](<https://github.com/firefox35/GolfnStuff/issues/6>)
+7. [USER STORY: Create a README file](https://github.com/firefox35/GolfnStuff/issues/7)
+8. [USER STORY: Create Products page](https://github.com/firefox35/GolfnStuff/issues/8)
+9. [USER STORY: Create a Search Functionality](https://github.com/firefox35/GolfnStuff/issues/9)
+10. [USER STORY: Sorting Products](https://github.com/firefox35/GolfnStuff/issues/10)
+11. [USER STORY: Book a Lesson](https://github.com/firefox35/GolfnStuff/issues/11)
+12. [USER STORY: Create a Reviews Section](https://github.com/firefox35/GolfnStuff/issues/12)
+13. [USER STORY: Contact Form](https://github.com/firefox35/GolfnStuff/issues/13)
+14. [USER STORY: Create a Shopping Cart](https://github.com/firefox35/GolfnStuff/issues/14)
+15. [USER STORY: Create a checkout process](https://github.com/firefox35/GolfnStuff/issues/15)
 
 # Features
 
 User Based Features Implemented
 
 - A user can create an Account.
-- A user can add a wine.
-- A user can delete a wine.
-- A user can edit a wine.
-- A user can read the details of the wine.
-- A user can delte its account.
+- A user can add a review.
+- A user can delete a review.
+- A user can edit a review.
+- A user can read the details of the review.
+- A user can delete its account.
 - A user can view each screen as a member.
 
 Account Restrictions
 
-- To access the wine list you have to register an account.
-- To access the wine details you have to register an account.
+- To access the review list you have to register an account.
+- To access the review details you have to register an account.
 - To access the site you must login with username and password.
 
 Website Features
@@ -139,40 +160,40 @@ Footer
 
     ![About Screen](static/images/hw-about.PNG)
 
-## Wines Page
+## Reviews Page
 
-- Wines Screen Image
+- Review Screen Image
 
   - The user is shown with an image with a red bricked wall with a window and four glasses of wine on a table.
 
-- Wines Screen Description
+- Review Screen Description
 
   - The user is shown with a bottle of wine with a description below on card that's happen when you submit the form to add a wine.
 
-![Wines Screen](static/images/hw-wines.PNG)
+![Review Screen](static/images/hw-wines.PNG)
 
-## Add Wine Page
+## Add Review Page
 
-- Add Wine Screen Image
+- Add Review Screen Image
 
   - The user is shown with an image of a pink bottle of wine and a glass on the table with a silhouette that given tranquil setting.
 
-- Add Wine Screen Description
+- Add Review Screen Description
 
   - The user is displayed with a form to enter a wine on the screen and submit the information.
-![Add Wine Screen](static/images/hw-add-wine.PNG)
+![Add Review Screen](static/images/hw-add-wine.PNG)
 
-## Wine Details Page
+## Review Details Page
 
-- Wine Detail Screen Image
+- Review Detail Screen Image
 
   - The user is shown with an image a marble background.
 
-- Wine Detail Screen Description
+- Review Detail Screen Description
 
   - The user is displayed with the a full description of the wine and an image.
   
-![Wine Details Screen](static/images/hw-wine-details.PNG)
+![Review Details Screen](static/images/hw-wine-details.PNG)
 
 ## Extra Features
 
@@ -196,13 +217,13 @@ Wireframes - Balsamiq.com
 
   ![Home Screen](static/images/hw-about-mockup.PNG)
 
-- Wines Screen
+- Review Screen
 
-  ![Wines Screen](static/images/hw-wines-mockup.PNG)
+  ![Reviews Screen](static/images/hw-reviews-mockup.PNG)
 
-- Add Wine Screen
+- Add Review Screen
 
-  ![Add Wine Screen](static/images/hw-add-wine-mockup.PNG)
+  ![Add Review Screen](static/images/hw-add-review-mockup.PNG)
 
 - Detail Screen
 
@@ -233,7 +254,7 @@ Django
 Github
 
 - This is used to create and store your source code as a backup if you lose your application.
-- <https://github.com/firefox35/heavenly-wines>
+- <https://github.com/firefox35/GolfnStuff>
 
 Git
 
@@ -281,15 +302,15 @@ Home Screen
 
 - Home Screen Buttons : They consist on the header the following
   - Home : The home button applies to all website pages to bring you to the home page.
-  - Wines : This view shown the reviewed wine card that can be clicked to show the detail of the wine.
+  - Reviews : This view shown the reviewed wine card that can be clicked to show the detail of the wine.
   - Comment : The user enters where they can add a review of a wine.
   - Register : Sign up to become a member.
   - Login : Enter User credentials
   - Learn More : This brings you to the about page.
 
-Wines Screen
+Review Screen
 
-- The wine shown on the screen once clicked will brings you to the Description of the wine. where you can edit or delete.
+- The review shown on the screen once clicked will brings you to the Description of the review. where you can edit or delete.
 
 # Testing
 
@@ -299,7 +320,7 @@ Responsiveness was tested on screen sizes from 320px on Chrome, Edge, Firefox an
 
 Steps to test:
 
-1. Open browser and navigate to [Heavenly Wines](https://firefox35.github.com/heavenly-wines/)
+1. Open browser and navigate to [GolfNStuff](https://firefox35.github.com/GolfNStuff/)
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Set the zoom to 50%
@@ -330,9 +351,9 @@ Manual testing performed as expected and accessible.
 
 ![Lighthouse Result](static/images/hw-lighthouse.PNG)
 
-- wines.html
+- reviews.html
   
-![Lighthouse Result](static/images/hw-lighthouse-wines.PNG)
+![Lighthouse Result](static/images/hw-lighthouse-reviews.PNG)
 
 ### Functional Testing
 
@@ -340,15 +361,15 @@ Manual testing performed as expected and accessible.
 
 - Perform testing was carried out on navigation links and found to be working perfectly by the way of clicking each buttons
 
-|   Navigation    |      Page to Load        |
-|-----------------|--------------------------|
-|  Home Screen    |  index.html              |
-|  Wines Screen   |  wines.html              |
-|  Comment Screen |  add_wine.html           |
-|  Detail Screen  |  wine_detail.html        |
-|  Delete Screen  |  wine_confirm_delete.html|
-|  Edit Screen    |  edit_wine.html          |
-|  About Screen   |  about.html              |
+|   Navigation    |      Page to Load          |
+|-----------------|----------------------------|
+|  Home Screen    |  index.html                |
+|  Reviews Screen |  reviews.html              |
+|  Comment Screen |  add_review.html           |
+|  Detail Screen  |  review_detail.html        |
+|  Delete Screen  |  review_confirm_delete.html|
+|  Edit Screen    |  edit_review.html          |
+|  About Screen   |  about.html                |
 
 #### Website Testing
 
@@ -356,7 +377,7 @@ Manual testing performed as expected and accessible.
 
 -The following test scenarios were covered.
 
-#### TEST 1 - [GolfNStuff](https://firefox35.github.com/heavenly-wines/)
+#### TEST 1 - [GolfNStuff](https://github.com/firefox35/GolfnStuff/)
 
 |          Description            |            Steps                       |Expected | Result  |
 |---------------------------------|----------------------------------------|---------|---------|
@@ -366,7 +387,7 @@ Manual testing performed as expected and accessible.
 |                                 | 4. Login Screen.                       | Passed  | &check; |
 |                                 | 5. About Screen (Learn More) Button.   | Passed  | &check; |
 
-#### TEST 2 - [GolfNStuff](https://firefox35.github.com/heavenly-wines/)
+#### TEST 2 - [GolfNStuff](https://github.com/firefox35/GolfnStuff/)
 
 |          Description           |            Steps       |  Expected | Result  |
 |--------------------------------|------------------------|-----------|---------|
@@ -375,7 +396,7 @@ Manual testing performed as expected and accessible.
 |                                | 3. Twitter/ X  Link    | Passed    | &check; |
 |                                | 4. Youtube Link        | Passed    | &check; |
 
-#### TEST 3 - [GolfNStuff](https://firefox35.github.com/heavenly-wines/)
+#### TEST 3 - [GolfNStuff](https://github.com/firefox35/GolfnStuff/)
 
 |      Description   |       Steps        | Expected | Result  |
 |--------------------|--------------------|----------|---------|
@@ -383,7 +404,7 @@ Manual testing performed as expected and accessible.
 |                    | 2. Login a user    | Passed   | &check; |
 |                    | 3. Logout a user   | Passed   | &check; |
 
-#### TEST 4 - [GolfNStuff](https://firefox35.github.com/heavenly-wines/)
+#### TEST 4 - [GolfNStuff](https://github.com/firefox35/GolfnStuff/)
 
 |          Description        |            Steps         | Expected | Result |
 |-----------------------------|--------------------------|----------|--------|
@@ -397,24 +418,24 @@ Manual testing performed as expected and accessible.
 |                             | 8. Add Image Decription  | Passed   | &check;|
 |                             | 9. Click Add Wine Button | Passed   | &check;|
 
-#### TEST 5 - [GolfNStuff](https://firefox35.github.com/heavenly-wines/)
+#### TEST 5 - [GolfNStuff](https://github.com/firefox35/GolfnStuff/)
 
 |          Description             |            Steps            | Expected | Result |
 |----------------------------------|-----------------------------|----------|--------|
 | The User can remove or edit post | 1. The user can delete post | Passed   | &check;|
 |                                  | 2. The user can edit post   | Passed   | &check;|
 
-#### TEST 6 - [GolfNStuff](https://firefox35.github.com/heavenly-wines/)
+#### TEST 6 - [GolfNStuff](https://github.com/firefox35/GolfnStuff/)
 
 |   Description   |              Steps                  | Expected | Result |
 |-----------------|-------------------------------------|----------|--------|
 | The Search Bar  | 1. The user can use the search bar  | Passed   | &check;|
 
-#### TEST 7 - [GolfNStuff](https://firefox35.github.com/heavenly-wines/)
+#### TEST 7 - [GolfNStuff](https://github.com/firefox35/GolfnStuff/)
 
-|   Description       |            Steps                                                                | Expected | Result |
-|---------------------|---------------------------------------------------------------------------------|----------|--------|
-| Details of the Wine | 1. The user can click the wine bottle to view the details from the wines screen.| Passed   | &check;|
+|   Description         |            Steps                                                             | Expected | Result |
+|-----------------------|------------------------------------------------------------------------------|----------|--------|
+| Details of the Review | 1. The user can click the product to view the details from the review screen.| Passed   | &check;|
 
 Validation Testing
 
@@ -503,7 +524,7 @@ Version Control
 
 Deployment of Live Version from Github
 
-The website was created using CodeAnyWhere editor and the code was pushed to a repository in GitHub called Heavenly Wines.
+The website was created using GitPod.io editor and the code was pushed to a repository in GitHub called GolfNStuff.
 
 I used the following GitHub commands to push the code to the repository, every time a chance is made to the code. This is what they called version control. Its basically a backup version of your code if anything goes wrong.
 
