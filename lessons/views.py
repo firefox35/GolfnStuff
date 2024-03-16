@@ -2,6 +2,8 @@ from django.shortcuts import render
 from .models import Lessons
 from django.template import loader
 from django.http import HttpResponse
+
+
 # Create your views here.
 
 def lesson(request):
@@ -22,6 +24,7 @@ def lesson(request):
             lesson.time=time
             lesson.comment=comment
             lesson.save()
-            return HttpResponse('lesson/response.html')
+            return render(request,'lesson/lesson.html')
     return render(request, 'lesson/lessons.html')
-# Create your views here.
+
+

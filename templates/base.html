@@ -43,9 +43,13 @@
 </head>
 
 <body>
-
     {% include 'includes/main-nav.html' %}
-    {% include 'includes/mobile-top-header.html'%}
+    {% include 'includes/mobile-top-header.html'%}  
+    
+    {% block page_header %}  
+    {% endblock %}
+    
+    {% block content %}
     {% if messages %}
         <div class="message-container">
             {% for message in messages %}
@@ -63,22 +67,18 @@
             {% endfor %}
         </div>
     {% endif %}
-
-    {% block page_header %}
-    
-        
-    {% endblock %}
-
-    {% block content %}
    
     {% endblock %}
-    {% include 'includes/footer.html' %}
+    
+    
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
     {% endblock %}
-     
+    {% include 'includes/footer.html' %} 
 </body>
+
+     
 
 </html>
