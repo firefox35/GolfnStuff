@@ -211,24 +211,28 @@ Wireframes - Balsamiq.com
 
 - Home Screen
 
-  ![Home Screen](static/images/home-drawing.PNG)
+  ![Home Screen](media/home-drawing.PNG)
 
 - About Screen
 
-  ![Home Screen](static/images/adout-drawing.PNG)
+  ![Home Screen](media/adout-drawing.PNG)
 
 - Review Screen
 
-  ![Reviews Screen](static/images/hw-reviews-mockup.PNG)
+  ![Reviews Screen](media/hw-reviews-mockup.PNG)
 
 - Add Review Screen
 
-  ![Add Review Screen](static/images/add-review.PNG)
+  ![Add Review Screen](media/add-review.PNG)
 
-- Detail Screen
+- Contact Us Screen
 
-  ![Detail Screen](static/images/hw-detail-mockup.PNG)
+  ![Detail Screen](media/contact-drawing.PNG)
 
+- Book a Lesson Screen
+
+  ![Detail Screen](media/lesson-drawing.PNG)
+  
 ## Technologies
 
 HTML
