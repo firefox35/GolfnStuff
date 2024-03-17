@@ -116,7 +116,7 @@ Header
 
 - Displays the Logo and the name of the brand to be promoted.
 
-  ![GolfNStuff](static/images/hw-header.PNG)
+  ![GolfNStuff](media/header.PNG)
 
 Navigation Menu
 
@@ -127,14 +127,14 @@ Footer
 
 - Displays the links to Facebook, Instagram, X and Youtube
 
-  ![GolfNStuff](static/images/hw-footer.PNG)
+  ![GolfNStuff](media/footer.PNG)
   
 400 Error
 
 - Broken link to page.
 - Error was due to a forward slash on a image links.
 
-  ![Error 400](static/images/bad-err.PNG)
+  ![Error 400](meadia/bad-err.PNG)
 
 ### Home Screen
 
@@ -146,7 +146,13 @@ Footer
 
   - The user is shown a screen with a brief description of the website with different links on the header and footer to other screens.
 
-    ![Home Screen](static/images/hw-home.PNG)
+    ![Home Screen](media/home.PNG)
+    ![Home Screen](media/home2.PNG)
+    ![Home Screen](media/home3.PNG)
+    ![Home Screen](media/home4.PNG)
+    ![Home Screen](media/home4a.PNG)
+    ![Home Screen](media/home5.PNG)
+    ![Home Screen](media/home6.PNG)
 
 ### About Screen
 
@@ -158,9 +164,9 @@ Footer
 
   - The user is shown as title and description of the website with a bottle of wine with the form.The bottle can be click to lead to the description of the wine.
 
-    ![About Screen](static/images/hw-about.PNG)
+    ![About Screen](media/about.PNG)
 
-## Reviews Page
+## Products Page
 
 - Review Screen Image
 
@@ -170,9 +176,9 @@ Footer
 
   - The user is shown with a bottle of wine with a description below on card that's happen when you submit the form to add a wine.
 
-![Review Screen](static/images/hw-wines.PNG)
+![Review Screen](media/home-drawing.PNG)
 
-## Add Review Page
+## Review Product Details Page
 
 - Add Review Screen Image
 
@@ -181,7 +187,7 @@ Footer
 - Add Review Screen Description
 
   - The user is displayed with a form to enter a wine on the screen and submit the information.
-![Add Review Screen](static/images/hw-add-wine.PNG)
+![Add Review Screen](media/home-drawing.PNG)
 
 ## Review Details Page
 
@@ -193,7 +199,65 @@ Footer
 
   - The user is displayed with the a full description of the wine and an image.
   
-![Review Details Screen](static/images/hw-wine-details.PNG)
+![Review Details Screen](media/home-drawing.PNG)
+
+## Add a Review Page
+
+- Review Screen Image
+
+  - The user is shown with an image with a red bricked wall with a window and four glasses of wine on a table.
+
+- Review Screen Description
+
+  - The user is shown with a bottle of wine with a description below on card that's happen when you submit the form to add a wine.
+
+![Review Screen](media/home-drawing.PNG)
+
+## Add Review Page
+
+  - The user is shown with an image of a pink bottle of wine and a glass on the table with a silhouette that given tranquil setting.
+
+- Add Review Screen Description
+
+  - The user is displayed with a form to enter a wine on the screen and submit the information.
+![Add Review Screen](media/home-drawing.PNG)
+
+## Review Details Page
+
+- Review Detail Screen Image
+
+  - The user is shown with an image a marble background.
+
+- Review Detail Screen Description
+
+  - The user is displayed with the a full description of the wine and an image.
+  
+![Review Details Screen](media/home-drawing.PNG)
+- Add Review Screen Image
+
+## Book a Lession Page
+
+  - The user is shown with an image of a pink bottle of wine and a glass on the table with a silhouette that given tranquil setting.
+
+- Add Review Screen Description
+
+  - The user is displayed with a form to enter a wine on the screen and submit the information.
+![Add Review Screen](media/lesson-form.PNG)
+
+## Contact Us Page
+
+- Review Detail Screen Image
+
+  - The user is shown with an image a marble background.
+
+- Review Detail Screen Description
+
+  - The user is displayed with the a full description of the wine and an image.
+  
+![Review Details Screen](media/contact.PNG)
+- Add Review Screen Image
+
+
 
 ## Extra Features
 
@@ -202,7 +266,7 @@ Footer
 
 ## Future Implementation
 
-- To incorporate a feature where you can purchaes the wines on the site with a link to payment method.
+- I'm planning to make the booking a lesson and the contact us forms to have a more responsive reply back system.
 - Plan to do automated testing.
 
 ## Design
@@ -215,15 +279,19 @@ Wireframes - Balsamiq.com
 
 - About Screen
 
-  ![Home Screen](media/adout-drawing.PNG)
+  ![About Screen](media/about-drawing.PNG)
 
 - Review Screen
 
-  ![Reviews Screen](media/hw-reviews-mockup.PNG)
+  ![Reviews Screen](media/reviews-drawing.PNG)
+
+- Review Detail Screen
+
+  ![Reviews Screen](media/review-detail-drawing.PNG)
 
 - Add Review Screen
 
-  ![Add Review Screen](media/add-review.PNG)
+  ![Add Review Screen](media/add-review-drawing.PNG)
 
 - Contact Us Screen
 
@@ -232,7 +300,23 @@ Wireframes - Balsamiq.com
 - Book a Lesson Screen
 
   ![Detail Screen](media/lesson-drawing.PNG)
-  
+
+- Checkout Screen
+
+  ![Detail Screen](media/checkout-drawing.PNG)
+
+- Register Screen
+
+  ![Detail Screen](media/register-drawing.PNG)
+
+- Product Screen
+
+  ![Detail Screen](media/product-drawing.PNG)
+
+- Product Detail Screen
+
+  ![Detail Screen](media/product-detail-drawing.PNG)
+
 ## Technologies
 
 HTML
