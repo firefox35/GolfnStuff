@@ -409,7 +409,7 @@ Responsiveness was tested on screen sizes from 320px on Chrome, Edge, Firefox an
 
 Steps to test:
 
-1. Open browser and navigate to [GolfNStuff](https://firefox35.github.com/GolfNStuff/)
+1. Open browser and navigate to [GolfNStuff](https://golfnstuff-ee9465ae2158.herokuapp.com/)
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Set the zoom to 50%
@@ -438,11 +438,11 @@ Manual testing performed as expected and accessible.
 
 - index.html
 
-![Lighthouse Result](static/images/hw-lighthouse.PNG)
+![Lighthouse Result](media/hw-lighthouse.PNG)
 
 - reviews.html
   
-![Lighthouse Result](static/images/hw-lighthouse-reviews.PNG)
+![Lighthouse Result](media/hw-lighthouse-reviews.PNG)
 
 ### Functional Testing
 
@@ -558,13 +558,13 @@ Validation Testing
 
   - index.html
 
-    ![GolfNStuff Screens](static/images/html-validation.PNG)
+    ![GolfNStuff Screens](media/html-validation.PNG)
 
 - CSS
 
   - bass.css
 
-    ![GolfNStuff Screens](static/images/hw-css-validation.PNG)
+    ![GolfNStuff Screens](media/hw-css-validation.PNG)
 
 - Unfixed Bugs
 
@@ -572,25 +572,30 @@ Validation Testing
 
 ## Header & Footer Icons/Links
 
-- Logo Image
-
-  - <https://www.vectorstock.com/royalty-free-vector/two-glasses-of-red-wine-clink-vector-8647663>
-
 - Facebook Link
   
   - <https://www.facebook.com/>
-  
-- Instagram Link
-  
-  - <https://www.instagram.com/>
   
 - X Link
   
   - <https://twitter.com/>
 
-- Youtube Link
+- Google Link
+  
+  - <https://www.google.com/>
 
-  - <https://www.youtube.com/>
+- Instagram Link
+  
+  - <https://www.instagram.com/>
+  
+- Linkedin Link
+
+  - <https://www.linkedin.com/>
+
+- GitHub Link
+
+  - <https://www.github.com/>
+
 
 # Deployment
 
@@ -612,7 +617,7 @@ To deploy the Heroku:
 - In the Sttings tab.
 - Click on the Config Vars- Reveal Config Vars
 - In it add the following config vars
- -CLOUDINARY_URL
+ -AWS_URL
  -DATABAE_URL
  -HEROKU_HOSTNAME
  -SECRET_KEY
@@ -621,13 +626,13 @@ To deploy the Heroku:
 - In Django create a new file called env.py
 - os.environ["DATABASE_URL"]= "Paste the link in here"
 - os.environ["SECRET_KEY"] = "your secret key goes here"
-- os.environ["CLOUDINARY_URL"] = "paste in the Url copied to the clipboard here"
+- os.environ["AWS_URL"] = "paste in the Url copied to the clipboard here"
 - In the settings.py file
 - Add the following
 - import Path from pathlib, import os and import dj_database_url
    os.path.isfile("env.py"): import env
-- Add the cloudinary libraries to the list of installed apps in order of important. 
--'Cloudinary_storage' goes above 'django.contrib.staticfiles' and 'cloudinary' goes below it.
+- Add the AWS libraries to the list of installed apps in order of important. 
+-'AWS_S3_Bucket' goes above 'django.contrib.staticfiles' and 'AWS' goes below it.
 - Link the file to the templates directory in Heroku TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 - Change the templates directory to TEMPLATES_DIR - 'DIRS': [TEMPLATES_DIR]
 - Add Heroku to the ALLOWED_HOSTS list.
@@ -649,7 +654,7 @@ git commit -m "Commit Message"
 
 git push
 
-The live link can be found here - <https://firefox35.github.com/heavenly-wines/>
+The live link can be found here - <https://golfnstuff-ee9465ae2158.herokuapp.com/>
 
 Clone the Repository Code Locally
 
@@ -659,7 +664,7 @@ From the menu on left select 'Pages'
 From the source section drop-down menu, select the Branch: main
 Click 'Save'
 A live link will be displayed in a green banner when published successfully.
-The live link can be found here - <https://firefox35.github.com/heavenly-wines/>
+The live link can be found here - <https://golfnstuff-ee9465ae2158.herokuapp.com/>
 
 # Credits
 
