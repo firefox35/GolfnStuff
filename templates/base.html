@@ -43,10 +43,11 @@
 </head>
 
 <body>
-    {% include 'includes/main-nav.html' %}
-    {% include 'includes/mobile-top-header.html'%}  
+      
     
     {% block page_header %}  
+    {% include 'includes/main-nav.html' %}
+    {% include 'includes/mobile-top-header.html'%}
     {% endblock %}
     
     {% block content %}

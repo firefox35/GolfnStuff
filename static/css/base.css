@@ -9,14 +9,15 @@ body {
     margin-top: 80px;
     
   }
-footer{
-  display:flex;
-  flex-direction: column;
+
+.footer{
   flex-grow: 1;
 }
   
-main{
+main {
   flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
 }
 
 /**Background images**/

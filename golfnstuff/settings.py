@@ -29,7 +29,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = False
+#'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['8000-firefox35-golfnstuff-la2cdtf2lur.ws-eu110.gitpod.io','golfnstuff-ee9465ae2158.herokuapp.com']
 
@@ -229,7 +230,7 @@ else:
     EMAIL_PORT = 587
     EMAIL_HOST = 'smtp.gmail.com'
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
-    EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_PASS')
+    EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
 
 # Default primary key field type
