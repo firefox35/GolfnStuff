@@ -12,33 +12,28 @@ This link is the live version of GolfNStuff (https://golfnstuff-ee9465ae2158.her
 
 - Database Schema
 
-![GolfNStuff Database](static/images/hw-database-diagram.png)
+![GolfNStuff Database](media/golfnstuff-er-diagram.png)
 
 Model
 
 - Reviews Model
-![GolfNStuff Model](static/images/reviews-model.PNG)
+![GolfNStuff Model](model/review-model.PNG)
 
 - Lessons Model
-![GolfNStuff Model](static/images/lesssons-model.PNG)
+![GolfNStuff Model](media/lesssons-model.PNG)
 
 - Contact Model
-![GolfNStuff Model](static/images/contact-model.PNG)
+![GolfNStuff Model](media/contact-model.PNG)
 
-- Profiles Model
-![GolfNStuff Model](static/images/profiles-model.PNG)
-  
-- Home Model
-![GolfNStuff Model](static/images/home-model.PNG)
+- Profile Model
+![GolfNStuff Model](media/profile-model.PNG)
 
 - Checkout Model
-![GolfNStuff Model](static/images/checkout-model.PNG)
+![GolfNStuff Model](media/checkout-model.PNG)
 
 - Products Model
-![GolfNStuff Model](static/images/products-model.PNG)
+![GolfNStuff Model](media/products-model.PNG)
 
-- Home Model
-![GolfNStuff Model](static/images/wine-model.PNG)
 
 ## UX Design
 
@@ -469,20 +464,32 @@ Manual testing performed as expected and accessible.
 
 |          Description            |            Steps                       |Expected | Result  |
 |---------------------------------|----------------------------------------|---------|---------|
-| Navigation Links on Home Screen | 1. Wine Screen Button.                 | Passed  | &check; |
-|                                 | 2. Comment Screen Button.              | Passed  | &check; |
-|                                 | 3. Register Screen Button.             | Passed  | &check; |
-|                                 | 4. Login Screen.                       | Passed  | &check; |
-|                                 | 5. About Screen (Learn More) Button.   | Passed  | &check; |
+| Navigation Links on Home Screen | 1. Home Screen Button.                 | Passed  | &check; |
+|                                 | 2. Clubs Dropdown Menu Button.         | Passed  | &check; |
+|                                 | 3. Clothing Dropdown Menu Button.      | Passed  | &check; |
+|                                 | 4. Accessories Dropdown Menu Button.   | Passed  | &check; |
+|                                 | 5. Products Dropdown Menu Button.      | Passed  | &check; |
+|                                 | 6. Account Dropdown Menu Button.       | Passed  | &check; |
+|                                 | 7. Checkout Screen Button.             | Passed  | &check; |
+|                                 | 8. Sign Up Screen Button.              | Passed  | &check; |
+|                                 | 9. Reviews Screen Button.              | Passed  | &check; |
+|                                 | 10. Book a Lesson Screen Button.       | Passed  | &check; |
+|                                 | 11. About Us Screen Button.            | Passed  | &check; |
+|                                 | 12. Equipment Feedback Screen Button.  | Passed  | &check; |
+|                                 | 13. Contact Us Screen Button.          | Passed  | &check; |
+|                                 | 14. All Dropdown Sub Menu Buttons.     | Passed  | &check; |
+
 
 #### TEST 2 - [GolfNStuff](https://github.com/firefox35/GolfnStuff/)
 
 |          Description           |            Steps       |  Expected | Result  |
 |--------------------------------|------------------------|-----------|---------|
 | Navigate Links to Social Media.| 1. Facebook Link       | Passed    | &check; |
-|                                | 2. Instagram Link      | Passed    | &check; |
-|                                | 3. Twitter/ X  Link    | Passed    | &check; |
-|                                | 4. Youtube Link        | Passed    | &check; |
+|                                | 2. Twitter/ X Link     | Passed    | &check; |
+|                                | 3. Google Link         | Passed    | &check; |
+|                                | 4. Instagram Link      | Passed    | &check; |
+|                                | 5. Linkedin Link       | Passed    | &check; |
+|                                | 6. Github Link         | Passed    | &check; |
 
 #### TEST 3 - [GolfNStuff](https://github.com/firefox35/GolfnStuff/)
 
@@ -496,22 +503,36 @@ Manual testing performed as expected and accessible.
 
 |          Description        |            Steps         | Expected | Result |
 |-----------------------------|--------------------------|----------|--------|
-| Wine Comment Form Working   | 1. Add Wine              | Passed   | &check;|
-|                             | 2. Add Year              | Passed   | &check;|
-|                             | 3. Add Type of Wine      | Passed   | &check;|
-|                             | 4. Add Colour of Wine    | Passed   | &check;|
-|                             | 5. Add Country of Orgin  | Passed   | &check;|
-|                             | 6. Add Description       | Passed   | &check;|
+| Product Form Working        | 1. Add Title             | Passed   | &check;|
+|                             | 2. Add Product Name      | Passed   | &check;|
+|                             | 3. Add Comment           | Passed   | &check;|
+|                             | 4. Add Image             | Passed   | &check;|
+|                             | 5. Add Image Name        | Passed   | &check;|
+|                             | 6. Click Submit Button   | Passed   | &check;|
 |                             | 7. Add Image             | Passed   | &check;|
 |                             | 8. Add Image Decription  | Passed   | &check;|
-|                             | 9. Click Add Wine Button | Passed   | &check;|
+|                             | 9. Click Submit Button   | Passed   | &check;|
 
 #### TEST 5 - [GolfNStuff](https://github.com/firefox35/GolfnStuff/)
 
 |          Description             |            Steps            | Expected | Result |
 |----------------------------------|-----------------------------|----------|--------|
 | The User can remove or edit post | 1. The user can delete post | Passed   | &check;|
-|                                  | 2. The user can edit post   | Passed   | &check;|
+| on both product                  | 2. The user can edit post   | Passed   | &check;|
+
+#### TEST 6 - [GolfNStuff](https://github.com/firefox35/GolfnStuff/)
+
+|          Description        |            Steps         | Expected | Result |
+|-----------------------------|--------------------------|----------|--------|
+| Review Feedback Form Working| 1. Add Title             | Passed   | &check;|
+|                             | 2. Add Product           | Passed   | &check;|
+|                             | 3. Add Image             | Passed   | &check;|
+|                             | 4. Add Image Name        | Passed   | &check;|
+|                             | 5. Add Comment           | Passed   | &check;|
+|                             | 6. Click Submit Button   | Passed   | &check;|
+|                             | 7. Add Image             | Passed   | &check;|
+|                             | 8. Add Image Decription  | Passed   | &check;|
+|                             | 9. Click Submit Button   | Passed   | &check;|
 
 #### TEST 6 - [GolfNStuff](https://github.com/firefox35/GolfnStuff/)
 
