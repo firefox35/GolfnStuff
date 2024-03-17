@@ -211,11 +211,11 @@ Wireframes - Balsamiq.com
 
 - Home Screen
 
-  ![Home Screen](static/images/hw-homepage-mockups.PNG)
+  ![Home Screen](static/images/home-drawing.PNG)
 
 - About Screen
 
-  ![Home Screen](static/images/hw-about-mockup.PNG)
+  ![Home Screen](static/images/adout-drawing.PNG)
 
 - Review Screen
 
@@ -223,7 +223,7 @@ Wireframes - Balsamiq.com
 
 - Add Review Screen
 
-  ![Add Review Screen](static/images/hw-add-review-mockup.PNG)
+  ![Add Review Screen](static/images/add-review.PNG)
 
 - Detail Screen
 

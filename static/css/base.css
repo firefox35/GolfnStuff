@@ -6,17 +6,22 @@ body {
     display:flex;
     flex-direction: column;
     min-height: 100vh;
-    margin-top: 4%;
+    margin-top: 80px;
+    
   }
+footer{
+  display:flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
   
 main{
   flex-grow: 1;
 }
 
-
-
 /**Background images**/
 .bg-image {
+  background-image: url('media/fairway.jpg');
   background: no-repeat fixed;
   min-height: 100%;
   -webkit-background-size: cover;
@@ -121,16 +126,6 @@ input[name='q']::placeholder {
   padding-right: 1%;
 }
 
-
-  
-.bg-image {
-  background: no-repeat fixed;
-  min-height: 100%;
-  -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-}
 
 #dropdown-menu .submenu {
   display: none;
