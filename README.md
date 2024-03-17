@@ -12,26 +12,32 @@ This link is the live version of GolfNStuff (https://golfnstuff-ee9465ae2158.her
 
 - Database Schema
 
-![GolfNStuff Database](media/golfnstuff-er-diagram.png)
+![GolfNStuff Database](media/golfnstuff-er-diagram.PNG)
 
 Model
 
 - Reviews Model
-![GolfNStuff Model](model/review-model.PNG)
+
+![GolfNStuff Model](media/review-model.PNG)
 
 - Lessons Model
-![GolfNStuff Model](media/lesssons-model.PNG)
+
+![GolfNStuff Model](media/lessons-model.PNG)
 
 - Contact Model
+
 ![GolfNStuff Model](media/contact-model.PNG)
 
 - Profile Model
+
 ![GolfNStuff Model](media/profile-model.PNG)
 
 - Checkout Model
+
 ![GolfNStuff Model](media/checkout-model.PNG)
 
 - Products Model
+
 ![GolfNStuff Model](media/products-model.PNG)
 
 
