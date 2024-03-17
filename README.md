@@ -4,7 +4,7 @@ GolfNStuff is the one stop shop for all your needs, with top brands to suit ever
 
 This link is the live version of GolfNStuff (https://golfnstuff-ee9465ae2158.herokuapp.com)
 
-![Mockups](static/images/hw-devices.png)
+![Mockups](media/devices.png)
 
 # UX
 
@@ -176,7 +176,7 @@ Footer
 
   - The user is shown with a bottle of wine with a description below on card that's happen when you submit the form to add a wine.
 
-![Review Screen](media/home-drawing.PNG)
+![Review Screen](media/products.PNG)
 
 ## Review Product Details Page
 
@@ -187,7 +187,7 @@ Footer
 - Add Review Screen Description
 
   - The user is displayed with a form to enter a wine on the screen and submit the information.
-![Add Review Screen](media/home-drawing.PNG)
+![Add Review Screen](media/product-details.PNG)
 
 ## Review Details Page
 
@@ -199,7 +199,7 @@ Footer
 
   - The user is displayed with the a full description of the wine and an image.
   
-![Review Details Screen](media/home-drawing.PNG)
+![Review Details Screen](media/review.PNG)
 
 ## Add a Review Page
 
@@ -211,18 +211,18 @@ Footer
 
   - The user is shown with a bottle of wine with a description below on card that's happen when you submit the form to add a wine.
 
-![Review Screen](media/home-drawing.PNG)
+![Review Screen](media/add-review.PNG)
 
-## Add Review Page
+## Register Page
 
   - The user is shown with an image of a pink bottle of wine and a glass on the table with a silhouette that given tranquil setting.
 
 - Add Review Screen Description
 
   - The user is displayed with a form to enter a wine on the screen and submit the information.
-![Add Review Screen](media/home-drawing.PNG)
+![Add Review Screen](media/register.PNG)
 
-## Review Details Page
+## Sign In Page
 
 - Review Detail Screen Image
 
@@ -232,7 +232,7 @@ Footer
 
   - The user is displayed with the a full description of the wine and an image.
   
-![Review Details Screen](media/home-drawing.PNG)
+![Review Details Screen](media/sign-in.PNG)
 - Add Review Screen Image
 
 ## Book a Lession Page
