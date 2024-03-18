@@ -3,8 +3,7 @@
 {% block title %} Review Detail- {{comment.title}} {% endblock %}
 
 {% block content %}
-<div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-red" 
-        style="background-image: url('');">
+<div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-red" style="background-image: url('{% static 'media/dimple.jpg' %}');">
         <div class="review-info mt-3 p-1">
             <div class="wine-img">
                 <img src="{{review.image.url }}" alt="{{ review.image_alt }}" class="review-pic">

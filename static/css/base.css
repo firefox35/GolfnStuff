@@ -5,8 +5,9 @@ html, body {
 body {
     display:flex;
     flex-direction: column;
-    min-height: 100vh;
-    margin-top: 80px;
+    height: 100vh;
+    
+    position: relative;
     
   }
 
@@ -14,15 +15,20 @@ body {
   flex-grow: 1;
 }
   
-main {
+.main {
+  height: 100%;
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: auto;
 }
 
+.overlay {
+  flex-grow: 1;
+}
+
 /**Background images**/
 .bg-image {
-  background-image: url('media/fairway.jpg');
+  background-image: url("media/dimple.jpg");
   background: no-repeat fixed;
   min-height: 100%;
   -webkit-background-size: cover;

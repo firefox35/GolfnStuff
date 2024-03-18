@@ -56,9 +56,9 @@ Site User
 
 Goals for the website
 
-- Is to educate and gain knowlege on different wines.
-- To give and gain experience of the type of wines to buy.
-- Meet new people along the way.
+- Is to educate and gain knowlege of golf equipment.
+- To give and gain experience of what's the best equipment for the golfer to buy.
+- Share learning experiences of golf equipment.
 
 ## Agile Development
 
@@ -93,10 +93,10 @@ A User Story is a piece of functionality the needs to be installed along the way
 User Based Features Implemented
 
 - A user can create an Account.
-- A user can add a review.
-- A user can delete a review.
-- A user can edit a review.
-- A user can read the details of the review.
+- A user can add both a product and a review.
+- A user can delete both a product and a review.
+- A user can edit both a product and a review.
+- A user can read the details of both the product and the reviews.
 - A user can delete its account.
 - A user can view each screen as a member.
 
@@ -115,55 +115,69 @@ Website Features
 
 Header
 
-- Displays the Logo and the name of the brand to be promoted.
+- Displays the name of the company and links to our products.
 
   ![GolfNStuff](media/header.PNG)
 
 Navigation Menu
 
-- The navigation is very simple to the website, once you enter your name into the input field and click submit you will be able to enter the website.
-- In the home screen there is both a house and restart button that will bring you back to the Introduction Screen.
+- The navigation is very simple to the website, once you fill out the registration form your able to purchase item otherwise you would only be able to view the products on the website.
+- In the home screen there is home button will you back to the home screen.
 
 Footer
 
-- Displays the links to Facebook, Instagram, X and Youtube
+- Displays the links to Facebook, X, Google, Instagram, Linkedin and Github.
 
   ![GolfNStuff](media/footer.PNG)
   
-400 Error
+500 Error
 
 - Broken link to page.
-- Error was due to a forward slash on a image links.
+- Error was due to a forward slash on the app in the settings.py file.
 
-  ![Error 400](meadia/bad-err.PNG)
+  ![Error 500](meadia/bad-err.PNG)
 
 ### Home Screen
 
 - Home Screen Image
 
-  - The user is shown with an introduction of a view of the countryside with food, a bottle and two glasses of wine.
+  - The user is shown with an introduction of a golfer hitting a golf ball on the course which is symbols that this is a for another that is interested in golf.
 
 - Home Screen Description
 
-  - The user is shown a screen with a brief description of the website with different links on the header and footer to other screens.
+  - The user is shown a screen that has a carousel of images with brief description on them with different links on the header and also the links on the display page of the home screen and footer to social media links as well.
 
+- Home Screen Images 
+    - Carousel 1
     ![Home Screen](media/home.PNG)
+
+    - Carousel 2
     ![Home Screen](media/home2.PNG)
+
+    - Carousel 3
     ![Home Screen](media/home3.PNG)
+
+    - Home Screen
     ![Home Screen](media/home4.PNG)
+
+    - Home Screen
     ![Home Screen](media/home4a.PNG)
+
+    - Home Screen
     ![Home Screen](media/home5.PNG)
+
+    - Home Screen
     ![Home Screen](media/home6.PNG)
 
 ### About Screen
 
 - About Screen Image
 
-  - The user is shown with an image of wine region in the background.
+  - The user is shown with an image of a fairway in the background.
 
 - About Screen Description
 
-  - The user is shown as title and description of the website with a bottle of wine with the form.The bottle can be click to lead to the description of the wine.
+  - The user is shown a title and description of the history of the website
 
     ![About Screen](media/about.PNG)
 
