@@ -9,17 +9,13 @@ from .models import Review
 from .forms import ReviewForm
 
 
-"""View home screen"""
-
-
 class main(TemplateView):
+    """View home screen"""
     template_name = "reviews/main.html"
 
 
-"""View about list"""
-
-
 class about(ListView):
+    """View about list"""
     template_name = "reviews/about.html"
     model = Review
     context_object_name = "reviews"
@@ -28,10 +24,8 @@ class about(ListView):
         return self.model.objects.all()[:3]
 
 
-"""View all reviews"""
-
-
 class reviews(ListView):
+    """View all reviews"""
     template_name = "reviews/reviews.html"
     model = Review
     context_object_name = "reviews"
@@ -50,19 +44,15 @@ class reviews(ListView):
         return reviews
 
 
-"""Add a Review"""
-
-
 class review_detail(DetailView):
+    """Add a Review"""
     template_name = "reviews/review_detail.html"
     model = Review
     context_object_name = "review"
 
 
-"""Add Reviews"""
-
-
 class add_review(LoginRequiredMixin, CreateView):
+    """Add Reviews"""
     template_name = "reviews/add_review.html"
     model = Review
     context_object_name = "reviews"
@@ -74,10 +64,8 @@ class add_review(LoginRequiredMixin, CreateView):
         return super(add_review, self).form_valid(form)
 
 
-"""Delete Reviews"""
-
-
 class delete_review(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
+    """Delete Reviews"""
     model = Review
     success_url = '/reviews/'
 
@@ -85,10 +73,8 @@ class delete_review(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
         return self.request.user == self.get_object().user
 
 
-"""Edit Reviews"""
-
-
 class edit_review(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
+    """Edit Reviews"""
     template_name = "reviews/edit_review.html"
     model = Review
     form_class = ReviewForm
