@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /checkout/
+Disallow: /cart/
+Sitemap: https://golfnstuff-ee9465ae2158.herokuapp.com/sitemap.xml
