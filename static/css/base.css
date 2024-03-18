@@ -26,6 +26,10 @@ body {
   flex-grow: 1;
 }
 
+.navbar {
+  flex-wrap: wrap;
+}
+
 /**Background images**/
 .bg-image {
   background-image: url("media/dimple.jpg");
@@ -106,7 +110,7 @@ a.category-badge > span.badge:hover {
 
 .btt-button {
     height: 42px;
-    width: 42px;
+    width: 32px;
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -119,6 +123,7 @@ a.category-badge > span.badge:hover {
 }
 
 input[name='q']::placeholder {
+  width:auto;
   color: #aab7c4;
 }
 
@@ -130,9 +135,19 @@ input[name='q']::placeholder {
 }
 
 .form-inline{
+  flex-wrap: wrap;
   padding-right: 1%;
 }
 
+.form-control.mr-sm-2 {
+  flex-wrap: wrap;
+  width: 130px;
+}
+
+.input-form-control {
+  flex-wrap: wrap;
+  width: 20px;
+}
 
 #dropdown-menu .submenu {
   display: none;

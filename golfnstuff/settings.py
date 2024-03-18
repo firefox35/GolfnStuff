@@ -29,9 +29,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
-#'DEVELOPMENT' in os.environ
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['8000-firefox35-golfnstuff-la2cdtf2lur.ws-eu110.gitpod.io','golfnstuff-ee9465ae2158.herokuapp.com']
 
