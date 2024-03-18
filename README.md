@@ -385,6 +385,21 @@ Resize images
 - This application was used to resize images of the Heavenly website in desktop, laptop, tablet and mobile devices.
 - <https://www.resizepixel.com/>
 
+Temp Mail
+
+- This website provides you with an email address temporarily to test out your credentials when creating an account on a website.
+- <https://temp-mail.org/en/view/65f77cba11063a006aa1e5e1>
+
+Stripe
+
+-  Stripe is a payment application the collect payment when checkout and purchasing on the website.
+-  <https://dashboard.stripe.com/>
+
+DBeaver
+
+-  This application can attach to you elephant database and create ER Diagram.
+-  <https://dbeaver.io/>
+
 Navigation
 
 Home Screen
@@ -670,6 +685,126 @@ The live link can be found here - <https://golfnstuff-ee9465ae2158.herokuapp.com
 
 ## Websites
 
+Django: how to read the db_column name of a model field
+
+- <https://stackoverflow.com/questions/5243222/django-how-to-read-the-db-column-name-of-a-model-field>
+
+Drop Down Menu/Text Field in one
+
+- <https://stackoverflow.com/questions/18309059/drop-down-menu-text-field-in-one>
+
+How do I connect forms to models in Django?
+
+- <https://stackoverflow.com/questions/60708043/how-do-i-connect-forms-to-models-in-django>
+
+How to get Django form field from model field?
+
+- <https://stackoverflow.com/questions/2584141/how-to-get-django-form-field-from-model-field>
+
+Want to allow user to to pick datetime using the django model and forms.
+
+-<https://stackoverflow.com/questions/58424734/want-to-allow-user-to-to-pick-datetime-using-the-django-model-and-forms>
+
+How do I safely delete a model field in Django?
+
+- <https://stackoverflow.com/questions/68442018/how-do-i-safely-delete-a-model-field-in-django>
+
+Need help with Date Time Picker
+
+- <https://forum.djangoproject.com/t/need-help-with-date-time-picker/16988>
+
+How to display model attributes in django on web app.
+
+- <https://stackoverflow.com/questions/72998637/how-to-display-model-attributes-in-django-on-web-app>
+
+Django - getting Error "Reverse for 'detail' with no arguments not found. 1 pattern(s) tried:" when using {% url "music:fav" %}
+
+- <https://stackoverflow.com/questions/47944443/django-getting-error-reverse-for-detail-with-no-arguments-not-found-1-patt>
+
+Creating forms from models
+
+- <https://docs.djangoproject.com/en/5.0/topics/forms/modelforms/>
+
+Django Admin Page Edit App Names
+
+- <https://forum.djangoproject.com/t/django-admin-page-edit-app-names/14720>
+
+Stream a file as an HTTP Response with Bun
+
+- <https://bun.sh/guides/http/stream-file>
+
+You are trying to add a non-nullable field 'new_field' to userprofile without a default
+
+- <https://stackoverflow.com/questions/26185687/you-are-trying-to-add-a-non-nullable-field-new-field-to-userprofile-without-a>
+
+Django Crispy Forms saying Image Field is required even though it is filled
+
+- <https://www.reddit.com/r/django/comments/10moa44/django_crispy_forms_saying_image_field_is/>
+
+CommandError: No fixture named 'myapp' found
+
+- <https://stackoverflow.com/questions/45165389/commanderror-no-fixture-named-myapp-found>
+
+Django: ImproperlyConfigured: The SECRET_KEY setting must not be empty
+
+- <https://stackoverflow.com/questions/19128540/django-improperlyconfigured-the-secret-key-setting-must-not-be-empty>
+
+csrf verification error for django admin login
+
+- <https://forum.djangoproject.com/t/csrf-verification-error-for-django-admin-login/11785>
+
+Check for pending Django migrations
+
+- <https://stackoverflow.com/questions/31838882/check-for-pending-django-migrations>
+
+How to change Model name in Django Admin Panel.
+
+- <https://www.youtube.com/watch?v=IwC9c6UR29w>
+
+Django admin list display
+
+- <https://www.youtube.com/watch?v=uJrQMsLJWys>
+
+How to silence “Invalid HTTP_HOST header” error?
+
+- <https://forum.djangoproject.com/t/how-to-silence-invalid-http-host-header-error/9826>
+
+Deploying Django To Heroku - Server Error (500)
+
+- <https://stackoverflow.com/questions/44221653/deploying-django-to-heroku-server-error-500>
+
+How can my django form grab current username and email and submit them into another database table?
+
+- <https://stackoverflow.com/questions/69387635/how-can-my-django-form-grab-current-username-and-email-and-submit-them-into-anot>
+
+get request data in Django form
+
+- <https://stackoverflow.com/questions/1202839/get-request-data-in-django-form>
+
+How to get value from form field in django framework?
+
+- <https://stackoverflow.com/questions/4706255/how-to-get-value-from-form-field-in-django-framework>
+
+I want to add user's id on the url path or in the address of the page
+
+- <https://stackoverflow.com/questions/68273837/i-want-to-add-users-id-on-the-url-path-or-in-the-address-of-the-page>
+
+Django form based view GET response
+
+- <https://stackoverflow.com/questions/33678171/django-form-based-view-get-response>
+
+django how to set background colour in html based on context
+
+- <https://stackoverflow.com/questions/54102214/django-how-to-set-background-colour-in-html-based-on-context>
+
+ImproperlyConfigured: settings.DATABASES is improperly configured. Please supply the ENGINE value
+
+- <https://stackoverflow.com/questions/26080303/improperlyconfigured-settings-databases-is-improperly-configured-please-supply>
+
+Django error: The value of 'list_filter[2]' refers to 'is_active', which does not refer to a Field.?
+
+- <https://stackoverflow.com/questions/61407155/django-error-the-value-of-list-filter2-refers-to-is-active-which-does-no>
+
 Forbidden 403 | CSRF verification failed Request aborted | window 11 | 2022 updated | Django error
 
 - <https://www.youtube.com/watch?v=alcZVag5Zhc>
@@ -714,9 +849,6 @@ django-allauth 0.59.0
 
 - <https://pypi.org/project/django-allauth/>
 
-pip freeze
-
-- <https://pip.pypa.io/en/stable/cli/pip_freeze/>
 
 csrf verification failed. request aborted. Django
 
@@ -746,19 +878,45 @@ django-richtextfield 1.6.1
 
 - <https://pypi.org/project/django-richtextfield/>
 
-How can I deal with this Git warning? "Pulling without specifying how to reconcile divergent branches is discouraged"
 
-- <https://stackoverflow.com/questions/62653114/how-can-i-deal-with-this-git-warning-pulling-without-specifying-how-to-reconci>
 
 ## Video’s
 
-Django : You have 3 unapplied migration(s). Your project may not work properly until you apply
+Django User-Registration Form | sign-up | How To Create ...
 
-- <https://www.youtube.com/watch?v=XgGiE2of2v4>
+- <https://www.google.com/search?q=how+to+create+registration+form+in+python+django&rlz=1C1CHBF_enIE1013IE1013&oq=how+to+create+booking+form+with+django&gs_lcrp=EgZjaHJvbWUqCAgCEAAYFhgeMgYIABBFGDkyCAgBEAAYFhgeMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMg0IBRAAGIYDGIAEGIoFMg0IBhAAGIYDGIAEGIoFMg0IBxAAGIYDGIAEGIoF0gEJMjE4OTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:6b8e67d0,vid:bOwC5e9cIXw,st:0>
+
+Populate/Insert Existing Data in Django Models
+
+- <https://www.youtube.com/watch?v=TL6qLQoJLsw>
+
+Add, Remove, and modify fields (with non-required values) | Django ORM Model Essentials
+
+- <https://www.youtube.com/watch?v=oZy3cOWgLgY>
+
+How to Easily Style Your Django Form Fields With Django Widget Tweaks
+
+- <https://www.youtube.com/watch?v=ynToND_xOAM>
 
 Python Django Multiple HTML Pages Configure Routing (urls.py)
 
 - <https://www.youtube.com/watch?v=1jcjuV2StxQ>
+
+HTML : How can one set a background image in a Django Template?
+
+- <https://www.youtube.com/watch?v=Ndb4-Gi4vIw>
+
+How to Receive Data From a Django Form Using a POST Request (Django Tutorial) | Part 46
+
+- <https://www.youtube.com/watch?v=wzZiONbtwiA>
+
+How to verify the Email Address of the user in Django 2020 || The Codrammers
+
+- <https://www.youtube.com/watch?v=KEdrtb9RMHM>
+
+Two ways to use ERD in DBeaver
+
+- <https://www.youtube.com/watch?v=770M9AB9LIM>
   
 Django Lesson 6: Advanced URL Patterns
 
@@ -772,6 +930,3 @@ How to make a website with Python and Django - BASICS
 
 - <https://www.youtube.com/watch?v=rA4X73E_HV0>
 
-Building a Python website for Beginners using Django Framework | Coffee Shop Django web App
-
-- https://www.youtube.com/watch?v=aXrGC-s2gok
