@@ -133,6 +133,7 @@ Footer
 
 
 - Facebook Link on the Footer brings you to it's Facebook Live Page
+- <https://www.facebook.com/profile.php?id=61557411004879>
 
     ![GolfNStuff](media/golfnstuff-facebook-page.PNG)
 
@@ -142,14 +143,12 @@ Footer
   - 
  - Facebook, Mailchimp, X, Google, Instagram, Linkedin and Github.
 
-  ![GolfNStuff](media/golfnstuff-footer.PNG)
+    ![GolfNStuff](media/golfnstuff-footer.PNG)
   
 500 Error
 
-- Broken link to page.
-- Error was due to a forward slash on the app in the settings.py file.
-
-  ![Error 500](meadia/bad-err.PNG)
+- Broken link to pageS.
+- Error was due to load static not added to html pages.
 
 ### Home Screen
 
@@ -193,54 +192,79 @@ Footer
 
   - The user is shown a title and description of the history of the website
 
-    ![About Screen](media/about.PNG)
+    ![About Screen](media/golfnstuff-about.PNG)
 
-## Products Page
+## Product Page
 
-- Review Screen Image
+- Product Screen Image
 
-  - The user is shown with an image with a red bricked wall with a window and four glasses of wine on a table.
+  - The user is shown with an image with a dimples of a golf ball.
 
-- Review Screen Description
+- Product Screen Description
 
-  - The user is shown with a bottle of wine with a description below on card that's happen when you submit the form to add a wine.
+  - The user is shown with a selection of golf equipment with a description below on card that's happen when you submit the form to add a product.
 
-![Review Screen](media/products.PNG)
+![Product Screen](media/golfnstuff-product.PNG)
+
+## Product Detail Page
+
+- Product Screen Image
+
+  - The user is shown with an image with a dimples of a golf ball.
+
+- Product Screen Description
+
+  - The user is shown with the detailed description of the product they have selected.
+
+![Product Screen](media/golfnstuff-product-detail.PNG)
+
+## All Product Page
+
+- Product Screen Image
+
+  - The user is shown with an image with a dimples of a golf ball.
+
+- Product Screen Description
+
+  - The user is shown can view all products and sort by price etc..
+
+![Product Screen](media/golfnstuff-all-product.PNG)
 
 ## Review Product Details Page
 
 - Add Review Screen Image
 
-  - The user is shown with an image of a pink bottle of wine and a glass on the table with a silhouette that given tranquil setting.
+  - The user is shown with an image with a dimples of a golf ball.
 
 - Add Review Screen Description
 
-  - The user is displayed with a form to enter a wine on the screen and submit the information.
-![Add Review Screen](media/product-details.PNG)
+  - The user is displayed with the review card on the screen and to read detail by must click on it.
+
+![Add Review Screen](media/golfnstuff-review.PNG)
 
 ## Review Details Page
 
 - Review Detail Screen Image
 
-  - The user is shown with an image a marble background.
+  - The user is shown with an image with a dimples of a golf ball.
 
 - Review Detail Screen Description
 
-  - The user is displayed with the a full description of the wine and an image.
+  - The user is displayed with the a full description of the product and an image.
   
-![Review Details Screen](media/review.PNG)
+![Review Details Screen](media/golfnstuff-review-detail.PNG)
 
 ## Add a Review Page
 
 - Review Screen Image
 
-  - The user is shown with an image with a red bricked wall with a window and four glasses of wine on a table.
+  - The user is shown with an image with a dimples of a golf ball.
 
 - Review Screen Description
 
-  - The user is shown with a bottle of wine with a description below on card that's happen when you submit the form to add a wine.
+  - The user is displayed with a form to enter a review on the screen and submit the information.
 
-![Review Screen](media/add-review.PNG)
+![Review Screen](media/gf-add-review.PNG)
 
 ## Register Page
 
@@ -271,7 +295,7 @@ Footer
 - Add Review Screen Description
 
   - The user is displayed with a form to enter a wine on the screen and submit the information.
-![Add Review Screen](media/lesson-form.PNG)
+![Add Review Screen](media/gf-lesson.PNG)
 
 ## Contact Us Page
 
@@ -283,7 +307,7 @@ Footer
 
   - The user is displayed with the a full description of the wine and an image.
   
-![Review Details Screen](media/contact.PNG)
+![Review Details Screen](media/gf-contact.PNG)
 - Add Review Screen Image
 
 
@@ -413,6 +437,10 @@ Resize images
 - This application was used to resize images of the Heavenly website in desktop, laptop, tablet and mobile devices.
 - <https://www.resizepixel.com/>
 
+Mail Chimp 
+- This application allow you to create a email newsletter subscription form on the footer.
+- <https://login.mailchimp.com>
+
 Temp Mail
 
 - This website provides you with an email address temporarily to test out your credentials when creating an account on a website.
@@ -516,7 +544,7 @@ Manual testing performed as expected and accessible.
 | Navigation Links on Home Screen | 1. Home Screen Button.                 | Passed  | &check; |
 |                                 | 2. Clubs Dropdown Menu Button.         | Passed  | &check; |
 |                                 | 3. Clothing Dropdown Menu Button.      | Passed  | &check; |
-|                                 | 4. Accessories Dropdown Menu Button.   | Passed  | &check; |
+|                                 | 4. Extra Dropdown Menu Button.         | Passed  | &check; |
 |                                 | 5. Products Dropdown Menu Button.      | Passed  | &check; |
 |                                 | 6. Account Dropdown Menu Button.       | Passed  | &check; |
 |                                 | 7. Checkout Screen Button.             | Passed  | &check; |
@@ -617,7 +645,7 @@ Validation Testing
 
 - Facebook Link
   
-  - <https://www.facebook.com/>
+  - <https://www.facebook.com/profile.php?id=61557411004879>
   
 - X Link
   
