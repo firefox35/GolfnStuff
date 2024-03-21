@@ -1,23 +1,28 @@
 from django.shortcuts import render
+from django.views.generic import (
+    TemplateView, CreateView)
 from .models import Lessons
 from django.template import loader
 from django.http import HttpResponse
-
+from .forms import LessonForm
+import datetime
 
 # Create your views here.
 
-def lesson(request):
-    if request.method=="POST":
-            new_lesson=Lessons()
-            new_lesson.name=request.POST.get('name')
-            new_lesson.email=request.POST.get('email')
-            new_lesson.phone=request.POST.get('phone')
-            new_lesson.golfer=request.POST.get('golfer')
-            new_lesson.date=request.POST.get('date')
-            new_lesson.time=request.POST.get('time')
-            new_lesson.comment=request.POST.get('comment')
-            new_lesson.save()
-            return render(request,'lesson/lesson.html')
-    return render(request, 'lesson/lessons.html')
+class Lesson(TemplateView):
+    """View home screen"""
+    template_name = "lesson/lesson.html"
+    
 
+class AddLesson(CreateView):
+    """Add Contact"""
+    template_name = "lesson/lessons.html"
+    model = Lessons
+    context_object_name = "lessons"
+    form_class = LessonForm
+    success_url = "/lesson/"
+
+    def form_valid(self, form):
+        form.instance.user = self.request.user
+        return super(AddLesson, self).form_valid(form)
 

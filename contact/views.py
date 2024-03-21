@@ -1,19 +1,31 @@
 from django.shortcuts import render
+from django.views.generic import (
+    TemplateView, CreateView)
 from .models import Contact
+from django.db.models import Q
 from django.http import HttpResponse
+from .forms import ContactForm
 # Create your views here.
 
-def contact(request):
-    if request.method=="POST":
-            contact=Contact()
-            name=request.POST.get('name')
-            email=request.POST.get('email')
-            phone=request.POST.get('phone')
-            comment=request.POST.get('comment')
-            contact.name=name
-            contact.email=email
-            contact.phone=phone
-            contact.comment=comment
-            contact.save()
-            return HttpResponse("<h1>Thanks for contacting us, we will response shortly.</h1>")
-    return render(request, 'contact/contact.html')
+class Contact(TemplateView):
+    """View home screen"""
+    template_name = "contact/contact.html"
+    
+
+class AddContact(CreateView):
+    """Add Contact"""
+    template_name = "contact/add_contact.html"
+    model = Contact
+    context_object_name = "contacts"
+    form_class = ContactForm
+    success_url = "/contact/"
+
+    def form_valid(self, form):
+        form.instance.user = self.request.user
+        return super(AddContact, self).form_valid(form)
+
+
+
+        
+        
+

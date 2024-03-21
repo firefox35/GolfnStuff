@@ -87,6 +87,11 @@ A User Story is a piece of functionality the needs to be installed along the way
 13. [USER STORY: Contact Form](https://github.com/firefox35/GolfnStuff/issues/13)
 14. [USER STORY: Create a Shopping Cart](https://github.com/firefox35/GolfnStuff/issues/14)
 15. [USER STORY: Create a checkout process](https://github.com/firefox35/GolfnStuff/issues/15)
+16. [USER STORY: Create a checkout process](https://github.com/firefox35/GolfnStuff/issues/16)
+17. [USER STORY: Create a Facebook page](https://github.com/firefox35/GolfnStuff/issues/17)
+18. [USER STORY: Create a email newsletter](https://github.com/firefox35/GolfnStuff/issues/18)
+19. [USER STORY: Book a Lesson Part 2](https://github.com/firefox35/GolfnStuff/issues/19)
+20. [USER STORY: Contact Us Part 2](https://github.com/firefox35/GolfnStuff/issues/20)
 
 # Features
 
@@ -126,9 +131,18 @@ Navigation Menu
 
 Footer
 
-- Displays the links to Facebook, X, Google, Instagram, Linkedin and Github.
 
-  ![GolfNStuff](media/footer.PNG)
+- Facebook Link on the Footer brings you to it's Facebook Live Page
+
+    ![GolfNStuff](media/golfnstuff-facebook-page.PNG)
+
+- Email Subscription uses MailChimp
+
+    ![GolfNStuff](media/mailchimp.PNG)
+  - 
+ - Facebook, Mailchimp, X, Google, Instagram, Linkedin and Github.
+
+  ![GolfNStuff](media/golfnstuff-footer.PNG)
   
 500 Error
 
