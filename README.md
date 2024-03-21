@@ -122,7 +122,7 @@ Header
 
 - Displays the name of the company and links to our products.
 
-  ![GolfNStuff](media/golfnstufff-header.PNG)
+  ![GolfNStuff](media/golfnstuff-header.PNG)
 
 Navigation Menu
 
@@ -147,7 +147,7 @@ Footer
   
 500 Error
 
-- Broken link to pageS.
+- Broken link to pages.
 - Error was due to load static not added to html pages.
 
 ### Home Screen
@@ -192,7 +192,7 @@ Footer
 
   - The user is shown a title and description of the history of the website
 
-    ![About Screen](media/golfnstuff-about.PNG)
+    ![About Screen](media/gf-about.PNG)
 
 ## Product Page
 
@@ -268,47 +268,48 @@ Footer
 
 ## Register Page
 
-  - The user is shown with an image of a pink bottle of wine and a glass on the table with a silhouette that given tranquil setting.
+  - The user is shown with an image with a dimples of a golf ball.
 
 - Add Review Screen Description
 
-  - The user is displayed with a form to enter a wine on the screen and submit the information.
+  - The user is displayed with a registration form to enter details on the screen and submit the information.
+
 ![Add Review Screen](media/register.PNG)
 
 ## Sign In Page
 
-- Review Detail Screen Image
+- Login Screen Image
+  - The user is shown with an image with a dimples of a golf ball.
 
-  - The user is shown with an image a marble background.
+- Login Screen Description
 
-- Review Detail Screen Description
-
-  - The user is displayed with the a full description of the wine and an image.
+  - The user is displayed with a login form to enter details on the screen and submit the information.
   
 ![Review Details Screen](media/sign-in.PNG)
-- Add Review Screen Image
+
 
 ## Book a Lession Page
 
+- Book a Lesson Screen Image
   - The user is shown with an image of a pink bottle of wine and a glass on the table with a silhouette that given tranquil setting.
 
-- Add Review Screen Description
-
+- Book a Lesson Screen Description
   - The user is displayed with a form to enter a wine on the screen and submit the information.
-![Add Review Screen](media/gf-lesson.PNG)
+  
+![Book a Lesson Screen](media/gf-lesson.PNG)
 
 ## Contact Us Page
 
-- Review Detail Screen Image
+- Contact Us Screen Image
 
   - The user is shown with an image a marble background.
 
-- Review Detail Screen Description
+- Contact Us Screen Description
 
   - The user is displayed with the a full description of the wine and an image.
   
-![Review Details Screen](media/gf-contact.PNG)
-- Add Review Screen Image
+![Contact Us Screen](media/gf-contact.PNG)
+
 
 
 
