@@ -7,8 +7,6 @@ body {
     flex-direction: column;
     height: 100vh;
     margin-top: 80px;
-    
-    
   }
 
 .footer{
@@ -31,15 +29,18 @@ body {
 }
 
 /**Background images**/
+
+
 .bg-image {
-  background-image: url("media/dimple.jpg");
+  max-width: 100%;
   background: no-repeat fixed;
-  min-height: 100%;
+  
   -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
 }
+
 
 .icon {
     align-items: center;

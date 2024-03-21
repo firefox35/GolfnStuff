@@ -122,7 +122,7 @@ Header
 
 - Displays the name of the company and links to our products.
 
-  ![GolfNStuff](media/header.PNG)
+  ![GolfNStuff](media/golfnstufff-header.PNG)
 
 Navigation Menu
 
