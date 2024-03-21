@@ -15,13 +15,10 @@ body {
   
 .main {
   height: 100%;
+  background: no-repeat;
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: auto;
-}
-
-.overlay {
-  flex-grow: 1;
 }
 
 .navbar {
@@ -33,8 +30,8 @@ body {
 
 .bg-image {
   max-width: 100%;
-  background: no-repeat fixed;
-  
+  min-height: 100%;
+  background: no-repeat;
   -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
