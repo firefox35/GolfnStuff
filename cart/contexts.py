@@ -25,7 +25,7 @@ def cart_contents(request):
             for size, quantity in item_data['items_by_size'].items():
                 total += quantity * product.price
                 product_count += quantity
-                bag_items.append({
+                cart_items.append({
                     'item_id': item_id,
                     'quantity': quantity,
                     'product': product,

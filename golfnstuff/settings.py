@@ -29,13 +29,11 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = 'DEVELOPMENT' in os.environ
 
-#'DEVELOPMENT' in os.environ
+ALLOWED_HOSTS = ['8000-firefox35-golfnstuff-nb87jjcbhcn.ws-eu111.gitpod.io','golfnstuff-ee9465ae2158.herokuapp.com']
 
-ALLOWED_HOSTS = ['8000-firefox35-golfnstuff-la2cdtf2lur.ws-eu110.gitpod.io','golfnstuff-ee9465ae2158.herokuapp.com']
-
-CSRF_TRUSTED_ORIGINS = ['https://8000-firefox35-golfnstuff-la2cdtf2lur.ws-eu110.gitpod.io','https://golfnstuff-ee9465ae2158.herokuapp.com']
+CSRF_TRUSTED_ORIGINS = ['https://8000-firefox35-golfnstuff-nb87jjcbhcn.ws-eu111.gitpod.io','https://golfnstuff-ee9465ae2158.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
