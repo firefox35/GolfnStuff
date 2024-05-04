@@ -368,7 +368,7 @@ Wireframes - Balsamiq.com
 
 - Product Detail Screen
 
-  ![Detail Screen](media/product-detail-drawing.PNG)
+  ![Detail Screen](media/all-products-drawing.PNG)
 
 ## Technologies
 
