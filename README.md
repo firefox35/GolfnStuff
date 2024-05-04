@@ -227,7 +227,7 @@ Footer
 
   - The user is shown can view all products and sort by price etc..
 
-![Product Screen](media/golfnstuff-all-product.PNG)
+![Product Screen](media/all-products.PNG)
 
 ## Review Product Details Page
 
@@ -284,7 +284,7 @@ Footer
 
   - The user is displayed with a login form to enter details on the screen and submit the information.
   
-![Review Details Screen](media/sign-in.PNG)
+![Review Details Screen](media/login.PNG)
 
 
 ## Book a Lession Page
@@ -295,7 +295,7 @@ Footer
 - Book a Lesson Screen Description
   - The user is displayed with a form to enter a wine on the screen and submit the information.
   
-![Book a Lesson Screen](media/gf-lesson.PNG)
+![Book a Lesson Screen](media/book-a-lesson.PNG)
 
 ## Contact Us Page
 
