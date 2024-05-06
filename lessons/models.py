@@ -17,8 +17,7 @@ class Lessons(models.Model):
     email = models.EmailField(max_length=40)
     phone = models.IntegerField()
     golfer = models.CharField(max_length=50, choices=PRO, default="Barry Power")
-    date = models.DateField()
-    time = models.TimeField()
+    date = models.DateTimeField(null=False, blank=True)
     comment = models.TextField(max_length=2000, null=False, blank=False)
 
     

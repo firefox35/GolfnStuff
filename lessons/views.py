@@ -18,9 +18,9 @@ class AddLesson(CreateView):
     """Add Contact"""
     template_name = "lesson/lessons.html"
     model = Lessons
-    context_object_name = "lessons"
+    context_object_name = "lesson"
     form_class = LessonForm
-    success_url = "/lesson/"
+    success_url = "/lessons/"
 
     def form_valid(self, form):
         form.instance.user = self.request.user
