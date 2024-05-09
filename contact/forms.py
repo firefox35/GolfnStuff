@@ -24,5 +24,4 @@ class ContactForm(forms.ModelForm):
             "email": "Email",
             "phone": "Phone No",
             "comment": "Message",
-            
         }

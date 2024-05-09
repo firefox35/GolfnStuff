@@ -10,7 +10,6 @@ STATUS = ((0, "Draft"), (1, "Published"))
 
 
 class Review(models.Model):
-    
     """A model to create and manage reviews"""
     user = models.ForeignKey(
         User, related_name="review_owner", on_delete=models.CASCADE)

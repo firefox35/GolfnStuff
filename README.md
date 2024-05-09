@@ -625,6 +625,30 @@ Manual testing performed as expected and accessible.
 
 Validation Testing
 
+- PYTHON - PEP8
+
+| Features | Admin  | Forms  | Models | Urls   | Views  | Tests  |  Apps   | Contexts| Webhooks | Webhook Handler | Widgets | Init | Signals | WSGI | ASGI | Settings |
+|----------|--------|--------|--------|--------|--------|--------|---------|---------|----------|-----------------|---------|------|---------|------|------|----------|
+|  Cart    | none ![python validation](media/python/cart-admin.png)|none ![python validation](media/python/cart-forms.png)|none ![python validation](media/python/cart-models.png)|none ![python validation](media/python/cart-urls.png)|none ![python validation](media/python/cart-views.png)|none ![python validation](media/python/cart-tests.png)|none ![python validation](media/python/cart-apps.png) | none ![python validation](media/python/cart-contexts.png)| N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|----------|--------|--------|--------|--------|--------|--------|---------|---------|----------|-----------------|---------|------|---------|------|------|----------|
+| Checkout |none ![python validation](media/python/cart-admin.png)|none ![python validation](media/python/checkout-forms.png)|none ![python validation](media/python/checkout-models.png)|none ![python validation](media/python/checkout-urls.png)|none ![python validation](media/python/checkout-views.png)|none ![python validation](media/python/checkout-tests.png)|none ![python validation](media/python/checkout-apps.png) | N/A |none ![python validation](media/python/checkout--webhooks.png)|none ![python validation](media/python/checkout-webhook-handler.png)| N/A |none ![python validation](media/python/checkout-init.png)|none ![python validation](media/python/checkout-signals.png)|
+|----------|--------|--------|--------|--------|--------|--------|---------|---------|----------|-----------------|---------|------|---------|------|------|----------|
+| Contact  |none ![python validation](media/python/contact-admin.png)|none ![python validation](media/python/contact-forms.png)|none ![python validation](media/python/contact-models.png)|none ![python validation](media/python/contact-urls.png)|none ![python validation](media/python/contact-views.png)|none ![python validation](media/python/contact-tests.png)|none ![python validation](media/python/contact-apps.png) | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|----------|--------|--------|--------|--------|--------|--------|---------|---------|----------|-----------------|---------|------|---------|------|------|----------|
+|GolfNStuff| N/A | N/A | N/A |none ![python validation](media/python/golfnstuff-urls.png)| N/A | N/A |none ![python validation](media/python/golfnstuff-apps.png) | N/A | N/A | N/A | N/A | N/A | N/A |none ![python validation](media/python/golfnstuff-wsgi.png)|none ![python validation](media/python/golfnstuff-asgi.png)|none ![python validation](media/python/golfnstuff-settings.png)|
+|----------|--------|--------|--------|--------|--------|--------|---------|---------|----------|-----------------|---------|------|---------|------|------|----------|
+|   Home   |none ![python validation](media/python/home-admin.png)| N/A |none ![python validation](media/python/home-models.png)|none ![python validation](media/python/home-urls.png)|none ![python validation](media/python/home-views.png)|none ![python validation](media/python/home-tests.png)| N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|----------|--------|--------|--------|--------|--------|--------|---------|---------|----------|-----------------|---------|------|----------|
+|  Lessons |none ![python validation](media/python/lessons-admin.png)|none ![python validation](media/python/lessons-forms.png)|none ![python validation](media/python/lessons-models.png)|none ![python validation](media/python/lessons-urls.png)|none ![python validation](media/python/lessons-views.png)|none ![python validation](media/python/lessons-tests.png)|none ![python validation](media/python/lessons-apps.png) |  N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|----------|--------|--------|--------|--------|--------|--------|---------|---------|----------|-----------------|---------|------|
+| Products |none ![python validation](media/python/products-admin.png)|none ![python validation](media/python/products-forms.png)|none ![python validation](media/python/products-models.png)|none ![python validation](media/python/products-urls.png)|none ![python validation](media/python/products-views.png)|none ![python validation](media/python/products-tests.png)|none ![python validation](media/python/products-apps.png) | N/A | N/A | N/A |none ![python validation](media/python/products-widgets.png)| N/A | N/A | N/A | N/A | N/A |
+|----------|--------|--------|--------|--------|--------|--------|---------|---------|----------|-----------------|---------|------|
+| Profiles |none ![python validation](media/python/profiles-admin.png)|none ![python validation](media/python/profiles-forms.png)|none ![python validation](media/python/profiles-models.png)|none ![python validation](media/python/profiles-urls.png)|none ![python validation](media/python/profiles-views.png)|none ![python validation](media/python/profiles-tests.png)|none ![python validation](media/python/profiles-apps.png) |   N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|----------|--------|--------|--------|--------|--------|--------|---------|---------|----------|-----------------|---------|------|
+| Reviews  |none ![python validation](media/python/reviews-admin.png)|none ![python validation](media/python/reviews-forms.png)|none ![python validation](media/python/reviews-models.png)|none ![python validation](media/python/reviews-urls.png)|none ![python validation](media/python/reviews-views.png)|none ![python validation](media/python/reviews-tests.png)|none ![python validation](media/python/reviews-apps.png) | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+|----------|--------|--------|--------|--------|--------|--------|---------|---------|----------|-----------------|---------|------|
+
+
 - HTML
 
   - index.html
@@ -635,7 +659,7 @@ Validation Testing
 
   - bass.css
 
-    ![GolfNStuff Screens](media/hw-css-validation.PNG)
+    ![GolfNStuff Screens](media/css-validation.PNG)
 
 - Unfixed Bugs
 

@@ -11,5 +11,4 @@ class ContactAdmin(admin.ModelAdmin):
         'email',
         'phone',
         'comment',
-        
     )

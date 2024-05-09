@@ -5,7 +5,7 @@ from .models import Lessons
 
 class LessonForm(forms.ModelForm):
     """Form to create a review"""
-    #DateTimeField
+    # DateTimeField
     date = forms.DateTimeField(
             widget=forms.DateInput(
                 attrs={
@@ -15,7 +15,6 @@ class LessonForm(forms.ModelForm):
             ),
             initial='2023-07-10'
     )
-
 
     class Meta:
         model = Lessons
@@ -30,7 +29,6 @@ class LessonForm(forms.ModelForm):
 
         widget = {
             "description": forms.Textarea(attrs={"rows": 5}),
-            
         }
 
         labels = {
@@ -40,7 +38,4 @@ class LessonForm(forms.ModelForm):
             "golfer": "Golf Professional",
             "date": "Appointment Date and Time",
             "comment": "Message",
-            
         }
-
-        

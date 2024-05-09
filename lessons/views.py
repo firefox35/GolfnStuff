@@ -7,12 +7,12 @@ from django.http import HttpResponse
 from .forms import LessonForm
 import datetime
 
-# Create your views here.
 
+# Create your views here.
 class Lesson(TemplateView):
     """View home screen"""
     template_name = "lesson/lesson.html"
-    
+
 
 class AddLesson(CreateView):
     """Add Contact"""
@@ -25,4 +25,3 @@ class AddLesson(CreateView):
     def form_valid(self, form):
         form.instance.user = self.request.user
         return super(AddLesson, self).form_valid(form)
-

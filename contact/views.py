@@ -7,10 +7,11 @@ from django.http import HttpResponse
 from .forms import ContactForm
 # Create your views here.
 
+
 class Contact(TemplateView):
     """View home screen"""
     template_name = "contact/contact.html"
-    
+
 
 class AddContact(CreateView):
     """Add Contact"""
@@ -23,9 +24,3 @@ class AddContact(CreateView):
     def form_valid(self, form):
         form.instance.user = self.request.user
         return super(AddContact, self).form_valid(form)
-
-
-
-        
-        
-

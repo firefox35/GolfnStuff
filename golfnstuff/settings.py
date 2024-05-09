@@ -31,9 +31,12 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['8000-firefox35-golfnstuff-nb87jjcbhcn.ws-eu111.gitpod.io','golfnstuff-ee9465ae2158.herokuapp.com']
+ALLOWED_HOSTS = ['8000-firefox35-golfnstuff-nb87jjcbhcn.ws-eu111.gitpod.io',
+                 'golfnstuff-ee9465ae2158.herokuapp.com']
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-firefox35-golfnstuff-nb87jjcbhcn.ws-eu111.gitpod.io','https://golfnstuff-ee9465ae2158.herokuapp.com']
+CSRF_TRUSTED_ORIGINS =
+['https://8000-firefox35-golfnstuff-nb87jjcbhcn.ws-eu111.gitpod.io',
+ 'https://golfnstuff-ee9465ae2158.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
@@ -82,13 +85,14 @@ TEMPLATES = [
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
-            os.path.join(BASE_DIR, 'templates','allauth'),
+            os.path.join(BASE_DIR, 'templates', 'allauth'),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request', # required by allauth
+                'django.template.context_processors.request',
+                # required by allauth
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -116,7 +120,6 @@ AUTHENTICATION_BACKENDS = [
 SITE_ID = 1
 
 
-
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
@@ -133,33 +136,35 @@ WSGI_APPLICATION = 'golfnstuff.wsgi.application'
 
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
-   'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+     'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
 else:
-   DATABASES = {
+    DATABASES = {
       'default': {
             'ENGINE': 'django.db.backends.sqlite3',
-           'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
     }
-
 
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
+
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+     'NAME': 'django.contrib.auth.password_validation.
+     UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+     'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+     'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+     'NAME': 'django.contrib.auth.password_validation.
+     NumericPasswordValidator',
     },
 ]
 
@@ -197,9 +202,9 @@ if 'USE_AWS' in os.environ:
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'golfnstuff'
     AWS_S3_REGION_NAME = 'eu-west-1'
-    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID') 
+    AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-    AWS_S3_CUSTOM_DOMAIN= f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
+    AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
 
     # Static and media files
     STATICFILES_STORAGE = 'custom_storages.StaticStorage'
