@@ -645,11 +645,18 @@ Validation Testing
 
     ![GolfNStuff Screens](media/html-validation.PNG)
 
-- CSS
+- CSS Validation
 
-  - bass.css
+  ![GolfNStuff Screens](media/css-validation.PNG)
 
-    ![GolfNStuff Screens](media/css-validation.PNG)
+  | CSS Files   | Passed Validation |
+  |-------------|-------------------|
+  | bass.css    | &check; |
+  | checkout.css| &check; |
+  | profile.css | &check; |
+  | review.css  | &check; |
+
+    
 
 - Unfixed Bugs
 
