@@ -9,7 +9,7 @@
             <a href="{% url 'home'%}" class="nav-link" >Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="list-inline-item dropdown">
-            <a href="#" class="text-black nav-link" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clubs</a>
+            <a href="#" class="text-black nav-link" id="clubs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clubs</a>
             <div class="dropdown-menu border-0" aria-labelledby="user-options">
               <a href="{% url 'products'%}?category=irons" class="dropdown-item">Irons</a>
               <a href="{% url 'products'%}?category=drivers" class="dropdown-item">Drivers</a>
@@ -19,7 +19,7 @@
             </div>
           </li>
           <li class="list-inline-item dropdown">
-            <a href="#" class="text-black nav-link" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clothing</a>
+            <a href="#" class="text-black nav-link" id="clothing" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clothing</a>
             <div class="dropdown-menu border-0" aria-labelledby="user-options">
               <a href="{% url 'products'%}?category=shirts" class="dropdown-item">Shirts</a>
               <a href="{% url 'products'%}?category=trousers" class="dropdown-item">Trousers</a>
@@ -33,7 +33,7 @@
             </div>
           </li>
           <li class="list-inline-item dropdown">
-            <a href="#" class="text-black nav-link" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extra</a>
+            <a href="#" class="text-black nav-link" id="extra" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extra</a>
             <div class="dropdown-menu border-0" aria-labelledby="user-options">
               <a href="{% url 'lessons' %}" class="dropdown-item">Book a Lesson</a>
               <a href="{% url 'reviews'%}" class="dropdown-item">Our Reviews</a>
@@ -41,7 +41,7 @@
             </div>
           </li>
           <li class="list-inline-item dropdown">
-            <a href="#" class="text-black nav-link"  id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+            <a href="#" class="text-black nav-link"  id="products" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
             <div class="dropdown-menu border-0" aria-labelledby="user-options">
               <a href="{% url 'products'%}?sort=price&direction=asc" class="dropdown-item">by Price</a>
               <a href="{% url 'products'%}?sort=rating&direction=desc" class="dropdown-item">by Rating</a>
@@ -57,7 +57,7 @@
           </div>
         </form>
         <li class="list-inline-item dropdown">
-          <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a href="#" class="text-black nav-link" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="text-center">
               <div><i class="bi bi-person"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                 <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
