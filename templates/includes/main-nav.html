@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-md navbar-light fixed-top " style="background-color: whitesmoke;">
-    <a class="navbar-brand" href="#">GolfNStuff</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  <div class="collapse navbar-collapse" id="navbarCollapse">
+      <a class="navbar-brand" href="#">GolfNStuff</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+   <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a href="{% url 'home'%}" class="nav-link" >Home <span class="sr-only">(current)</span></a>
@@ -49,14 +49,14 @@
               <a href="{% url 'products'%}" class="dropdown-item">All Products</a>
             </div>
           </li>
-          </ul> 
+      </ul> 
           <form class="form-inline mt-0 mt-md-0" method="GET" action="{% url 'products' %}">
             <input class="form-control mr-sm-2" type="text" name="q" placeholder="Search" aria-label="Search">
             <div class="input-group-append">
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </div>
-        </form>
-        <li class="list-inline-item dropdown">
+            </div>
+          </form>
+        <div class="list-inline-item dropdown">
           <a href="#" class="text-black nav-link" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="text-center">
               <div><i class="bi bi-person"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
@@ -77,9 +77,9 @@
                 <a href="{% url 'account_login' %}" class="dropdown-item"> Login</a>
             {% endif %}
           </div>
-        </li>
-        <li class="list-inline-item">
-        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_cart' %}">
+        </div>
+        <div class="list-inline-item">
+          <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_cart' %}">
             <div class="text-center">
               <div><i class="bi bi-cart4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
                 <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l.5 2H5V5zM6 5v2h2V5zm3 0v2h2V5zm3 0v2h1.36l.5-2zm1.11 3H12v2h.61zM11 8H9v2h2zM8 8H6v2h2zM5 8H3.89l.5 2H5zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
@@ -90,7 +90,7 @@
               </p>
             </div>
           </a>
-        </li>
+        </div>
     </div>
 </nav>
 
