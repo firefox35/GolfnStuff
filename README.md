@@ -629,16 +629,45 @@ Validation Testing
 
 [CI Python Linter](https://pep8ci.herokuapp.com/#) was used to validate the Python files that were created or edited by myself.
 
-| Features | Admin  | Forms  | Models | Urls   | Views  | Tests  |  Apps   | Contexts| Webhooks | Webhook Handler | Widgets | Init | Signals | 
-|----------|--------|--------|--------|--------|--------|--------|---------|---------|----------|-----------------|---------|------|---------|
-|  Cart    | none ![python validation](media/python/cart-admin.PNG)| N/A |none ![python validation](media/python/cart-models.PNG)|none ![python validation](media/python/cart-urls.PNG)|none ![python validation](media/python/cart-views.PNG)|none ![python validation](media/python/cart-tests.PNG)|none ![python validation](media/python/cart-apps.PNG) | none ![python validation](media/python/cart-contexts.PNG)| N/A | N/A | N/A | N/A | N/A |
-| Checkout |none ![python validation](media/python/cart-admin.PNG)|none ![python validation](media/python/checkout-forms.PNG)|none ![python validation](media/python/checkout-models-new.PNG)|none ![python validation](media/python/checkout-urls.PNG)|none ![python validation](media/python/checkout-views-new.PNG)|none ![python validation](media/python/checkout-tests.PNG)|none ![python validation](media/python/checkout-apps.PNG) | N/A |none ![python validation](media/python/checkout-webhooks.PNG)|none ![python validation](media/python/checkout-webhook-handler-new.PNG)| N/A |none ![python validation](media/python/checkout-init.PNG)|none ![python validation](media/python/checkout-signals.PNG)|
-| Contact  |none ![python validation](media/python/contact-admin.PNG)|none ![python validation](media/python/contact-forms.PNG)|none ![python validation](media/python/contact-models.PNG)|none ![python validation](media/python/contact-urls.PNG)|none ![python validation](media/python/contact-views.PNG)|none ![python validation](media/python/contact-tests.PNG)|none ![python validation](media/python/contact-apps.PNG) | N/A | N/A | N/A | N/A | N/A |
-|   Home   |none ![python validation](media/python/home-admin.PNG)| N/A |none ![python validation](media/python/home-models.PNG)|none ![python validation](media/python/home-urls.PNG)|none ![python validation](media/python/home-views.PNG)|none ![python validation](media/python/home-tests.PNG)| N/A | N/A | N/A | N/A | N/A | N/A | N/A | 
-|  Lessons |none ![python validation](media/python/lessons-admin.PNG)|none ![python validation](media/python/lessons-forms.PNG)|none ![python validation](media/python/lessons-models.PNG)|none ![python validation](media/python/lessons-urls.PNG)|none ![python validation](media/python/lessons-views.PNG)|none ![python validation](media/python/lessons-tests.PNG)|none ![python validation](media/python/lessons-apps.PNG) |  N/A | N/A | N/A | N/A | N/A | N/A | N/A |
-| Products |none ![python validation](media/python/products-admin.PNG)|none ![python validation](media/python/products-forms-new.PNG)|none ![python validation](media/python/products-models.PNG)|none ![python validation](media/python/product-urls.PNG)|none ![python validation](media/python/products-views-new.PNG)|none ![python validation](media/python/products-tests.PNG)|none ![python validation](media/python/products-apps.PNG) | N/A | N/A | N/A |none ![python validation](media/python/products-widgets-new.PNG)| N/A | N/A |
-| Profiles |none ![python validation](media/python/profiles-admin.PNG)|none ![python validation](media/python/profiles-forms.PNG)|none ![python validation](media/python/profiles-models.PNG)|none ![python validation](media/python/profiles-urls.PNG)|none ![python validation](media/python/profiles-views.PNG)|none ![python validation](media/python/profiles-tests.PNG)|none ![python validation](media/python/profiles-apps.PNG) |   N/A | N/A | N/A | N/A | N/A | N/A | N/A |
-| Reviews  |[python validation](media/python/reviews-admin.PNG) &check;|![python validation](media/python/reviews-forms.PNG) &check;|![python validation](media/python/reviews-models.PNG) &check;|![python validation](media/python/reviews-urls.PNG) &check;|![python validation](media/python/reviews-views.PNG) &check;|![python validation](media/python/reviews-tests.PNG) &check;|![python validation](media/python/reviews-apps.PNG) &check; | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+
+| Features | Admin  | Models | Urls   | Views  | Tests  |  Apps   | Contexts| Passed All Validation |
+|----------|--------|--------|--------|--------|--------|---------|---------|-----------------------|
+|  Cart    |![python validation](media/python/cart-admin.PNG)|![python validation](media/python/cart-models.PNG)|![python validation](media/python/cart-urls.PNG)|![python validation](media/python/cart-views.PNG)|![python validation](media/python/cart-tests.PNG)|![python validation](media/python/cart-apps.PNG)|![python validation](media/python/cart-contexts.PNG)|&check;|
+
+
+| Features | Admin  | Forms  | Models | Urls   | Views  | Tests  |  Apps   | Webhooks | Webhook Handler | Init | Signals |Passed All Validation |
+|----------|--------|--------|--------|--------|--------|--------|---------|----------|-----------------|------|---------|---------------|
+| Checkout |![python validation](media/python/cart-admin.PNG)|![python validation](media/python/checkout-forms.PNG)|![python validation](media/python/checkout-models-new.PNG)|![python validation](media/python/checkout-urls.PNG)|![python validation](media/python/checkout-views-new.PNG)|![python validation](media/python/checkout-tests.PNG)|![python validation](media/python/checkout-apps.PNG)|![python validation](media/python/checkout-webhooks.PNG)|![python validation](media/python/checkout-webhook-handler-new.PNG)|![python validation](media/python/checkout-init.PNG)|![python validation](media/python/checkout-signals.PNG)|&check; |
+
+
+| Features | Admin  | Forms  | Models | Urls   | Views  | Tests  |  Apps   | Passed All Validation | 
+|----------|--------|--------|--------|--------|--------|--------|---------|-----------------------|
+| Contact  |![python validation](media/python/contact-admin.PNG)|![python validation](media/python/contact-forms.PNG)|![python validation](media/python/contact-models.PNG)|![python validation](media/python/contact-urls.PNG)|![python validation](media/python/contact-views.PNG)|![python validation](media/python/contact-tests.PNG)|![python validation](media/python/contact-apps.PNG)|&check; |
+
+
+| Features | Admin  | Models | Urls   | Views  | Tests  |  Passed All Validation   |  
+|----------|--------|--------|--------|--------|--------|--------------------------|
+|   Home   |![python validation](media/python/home-admin.PNG)|![python validation](media/python/home-models.PNG)|![python validation](media/python/home-urls.PNG)|![python validation](media/python/home-views.PNG)|![python validation](media/python/home-tests.PNG)|&check; | 
+
+
+| Features | Admin  | Forms  | Models | Urls   | Views  | Tests  |  Apps   | Passed All Validation | 
+|----------|--------|--------|--------|--------|--------|--------|---------|-----------------------|
+|  Lessons |none ![python validation](media/python/lessons-admin.PNG)|none ![python validation](media/python/lessons-forms.PNG)|none ![python validation](media/python/lessons-models.PNG)|none ![python validation](media/python/lessons-urls.PNG)|none ![python validation](media/python/lessons-views.PNG)|none ![python validation](media/python/lessons-tests.PNG)|none ![python validation](media/python/lessons-apps.PNG) |&check; |
+
+
+| Features | Admin  | Forms  | Models | Urls   | Views  | Tests  |  Apps   | Widgets | Passed All Validation | 
+|----------|--------|--------|--------|--------|--------|--------|---------|---------|-----------------------|
+| Products |![python validation](media/python/products-admin.PNG)|![python validation](media/python/products-forms-new.PNG)|![python validation](media/python/products-models.PNG)|![python validation](media/python/product-urls.PNG)|![python validation](media/python/products-views-new.PNG)|![python validation](media/python/products-tests.PNG)|![python validation](media/python/products-apps.PNG)|![python validation](media/python/products-widgets-new.PNG)|&check;|
+
+
+| Features | Admin  | Forms  | Models | Urls   | Views  | Tests  |  Apps   | Passed All Validation | 
+|----------|--------|--------|--------|--------|--------|--------|---------|-----------------------|
+| Profiles |![python validation](media/python/profiles-admin.PNG)|![python validation](media/python/profiles-forms.PNG)|![python validation](media/python/profiles-models.PNG)|![python validation](media/python/profiles-urls.PNG)|![python validation](media/python/profiles-views.PNG)|![python validation](media/python/profiles-tests.PNG)|![python validation](media/python/profiles-apps.PNG)|&check; |
+
+
+| Features | Admin  | Forms  | Models | Urls   | Views  | Tests  |  Apps   | Passed All Validation | 
+|----------|--------|--------|--------|--------|--------|--------|---------|-----------------------|
+| Reviews  |![python validation](media/python/reviews-admin.PNG)|![python validation](media/python/reviews-forms.PNG)|![python validation](media/python/reviews-models.PNG)|![python validation](media/python/reviews-urls.PNG)|![python validation](media/python/reviews-views.PNG)|![python validation](media/python/reviews-tests.PNG)|![python validation](media/python/reviews-apps.PNG)|&check;|
 
 ### Javascript Validation
 
@@ -646,13 +675,13 @@ Validation Testing
 
 | Files | Images | Passed Vaildation |
 |-------|--------|-------------------|
-|cart.hmtl|![js validation](media/js/js-cart.PNG)|&check;|
+|cart.html|![js validation](media/js/js-cart.PNG)|&check;|
 |stripe_elements.js|![js validation](media/js/js-checkout-stripe-elements.PNG)|&check;|
-|quantity-input-script.hmtl|![js validation](media/js/js-html-quantity-input-script.PNG)|&check;|
-|add-products.hmtl|![js validation](media/js/js-products-add-products.PNG)|&check;|
-|edit-products.hmtl|![js validation](media/js/js-products-edit-products.PNG)|&check;|
-|products.hmtl|![js validation](media/js/js-products-products.PNG)|&check;|
-|base.hmtl|![js validation](media/js/js-templates-base.PNG)|&check;|
+|quantity-input-script.html|![js validation](media/js/js-html-quantity-input-script.PNG)|&check;|
+|add-products.html|![js validation](media/js/js-products-add-products.PNG)|&check;|
+|edit-products.html|![js validation](media/js/js-products-edit-products.PNG)|&check;|
+|products.html|![js validation](media/js/js-products-products.PNG)|&check;|
+|base.html|![js validation](media/js/js-templates-base.PNG)|&check;|
 
 ### HTML Validation
 
