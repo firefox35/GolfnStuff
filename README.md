@@ -60,6 +60,15 @@ Goals for the website
 - To give and gain experience of what's the best equipment for the golfer to buy.
 - Share learning experiences of golf equipment.
 
+## Project Planning
+
+### Customer Goals
+We provided an easy online experience for our customers to navigate our website whether it's purchasing online products or booking a golf lesson on the day. 
+### Business Goals
+
+### Marketing
+
+
 ## Agile Development
 
 Agile Overview
@@ -129,7 +138,6 @@ Navigation Menu
 - In the home screen there is home button will you back to the home screen.
 
 Footer
-
 
 - Facebook Link on the Footer brings you to it's Facebook Live Page
 - <https://www.facebook.com/profile.php?id=61557411004879>
@@ -688,6 +696,27 @@ Manual testing performed as expected and accessible.
   - index.html
 
     ![GolfNStuff Screens](media/html-validation.PNG)
+
+|     Files    |                 Image            |  Passed Validation |
+|--------------|----------------------------------|--------------------|
+| cart.html            |![Html Validation](media/html/cart-html.PNG)|&check;|
+| checkout_success.html|![Html Validation](media/html/checkout-success-html.PNG)|&check;|
+| checkout.html        |![Html Validation](media/html/checkout-html.PNG)|&check;|
+| add_contact.html     |![Html Validation](media/html/add-contact-html.PNG)|&check;|
+| contact.html         |![Html Validation](media/html/contact-html.PNG)|&check;|
+| index.html           |![Html Validation](media/html/index-html.PNG)|&check;|
+| lesson.html          |![Html Validation](media/html/validation.PNG)|&check;|
+| lessons.html         |![Html Validation](media/html/validation.PNG)|&check;|
+| custom_clearable_file_input.html |![Html Validation](media/html/validation.PNG)|&check;|
+| add_product.html     |![Html Validation](media/html/validation.PNG)|&check;|
+| edit_product.html    |![Html Validation](media/html/validation.PNG)|&check;|
+| product_detail.html  |![Html Validation](media/html/validation.PNG)|&check;|
+| products.html        |![Html Validation](media/html/validation.PNG)|&check;|
+| profile.html         |![Html Validation](media/html/validation.PNG)|&check;|
+| about.html           |![Html Validation](media/html/validation.PNG)|&check;|
+| index.html           |![Html Validation](media/html/validation.PNG)|&check;|
+| index.html           |![Html Validation](media/html/validation.PNG)|&check;|
+| index.html           |![Html Validation](media/html/validation.PNG)|&check;|
 
 ### CSS Validation
 
