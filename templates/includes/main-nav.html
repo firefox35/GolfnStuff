@@ -6,10 +6,10 @@
   <div class="collapse navbar-collapse" id="navbarCollapse">
       <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="{% url 'home'%}">Home <span class="sr-only">(current)</span></a>
+            <a href="{% url 'home'%}" class="nav-link" >Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="list-inline-item dropdown">
-            <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true"aria-expanded="false">Clubs</a>
+            <a href="#" class="text-black nav-link" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clubs</a>
             <div class="dropdown-menu border-0" aria-labelledby="user-options">
               <a href="{% url 'products'%}?category=irons" class="dropdown-item">Irons</a>
               <a href="{% url 'products'%}?category=drivers" class="dropdown-item">Drivers</a>
@@ -19,7 +19,7 @@
             </div>
           </li>
           <li class="list-inline-item dropdown">
-            <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clothing</a>
+            <a href="#" class="text-black nav-link" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Clothing</a>
             <div class="dropdown-menu border-0" aria-labelledby="user-options">
               <a href="{% url 'products'%}?category=shirts" class="dropdown-item">Shirts</a>
               <a href="{% url 'products'%}?category=trousers" class="dropdown-item">Trousers</a>
@@ -33,7 +33,7 @@
             </div>
           </li>
           <li class="list-inline-item dropdown">
-            <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extra</a>
+            <a href="#" class="text-black nav-link" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extra</a>
             <div class="dropdown-menu border-0" aria-labelledby="user-options">
               <a href="{% url 'lessons' %}" class="dropdown-item">Book a Lesson</a>
               <a href="{% url 'reviews'%}" class="dropdown-item">Our Reviews</a>
@@ -41,7 +41,7 @@
             </div>
           </li>
           <li class="list-inline-item dropdown">
-            <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
+            <a href="#" class="text-black nav-link"  id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
             <div class="dropdown-menu border-0" aria-labelledby="user-options">
               <a href="{% url 'products'%}?sort=price&direction=asc" class="dropdown-item">by Price</a>
               <a href="{% url 'products'%}?sort=rating&direction=desc" class="dropdown-item">by Rating</a>
