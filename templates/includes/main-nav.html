@@ -56,7 +56,8 @@
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </div>
           </form>
-        <div class="list-inline-item dropdown">
+      <ul>
+        <li class="list-inline-item dropdown">
           <a href="#" class="text-black nav-link" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <div class="text-center">
               <div><i class="bi bi-person"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
@@ -77,8 +78,8 @@
                 <a href="{% url 'account_login' %}" class="dropdown-item"> Login</a>
             {% endif %}
           </div>
-        </div>
-        <div class="list-inline-item">
+        </li>
+        <li class="list-inline-item">
           <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_cart' %}">
             <div class="text-center">
               <div><i class="bi bi-cart4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
@@ -90,7 +91,8 @@
               </p>
             </div>
           </a>
-        </div>
+        </li>
+      </ul>
     </div>
 </nav>
 
