@@ -328,47 +328,47 @@ Wireframes - Balsamiq.com
 
 - Home Screen
 
-  ![Home Screen](media/home-drawing.PNG)
+  ![Home Screen](media/mockups/home-drawing.PNG)
 
 - About Screen
 
-  ![About Screen](media/about-drawing.PNG)
+  ![About Screen](media/mockups/about-drawing.PNG)
 
 - Review Screen
 
-  ![Reviews Screen](media/reviews-drawing.PNG)
+  ![Reviews Screen](media/mockups/reviews-detail-drawing.PNG)
 
 - Review Detail Screen
 
-  ![Reviews Screen](media/review-detail-drawing.PNG)
+  ![Reviews Screen](media/mockups/review-info-drawing.PNG)
 
 - Add Review Screen
 
-  ![Add Review Screen](media/add-review-drawing.PNG)
+  ![Add Review Screen](media/mockups/add-review-drawing.PNG)
 
 - Contact Us Screen
 
-  ![Detail Screen](media/contact-drawing.PNG)
+  ![Detail Screen](media/mockups/contact-drawing.PNG)
 
 - Book a Lesson Screen
 
-  ![Detail Screen](media/lesson-drawing.PNG)
+  ![Detail Screen](media/mockups/lesson-drawing.PNG)
 
 - Checkout Screen
 
-  ![Detail Screen](media/checkout-drawing.PNG)
+  ![Detail Screen](media/mockups/checkout-drawing.PNG)
 
 - Register Screen
 
-  ![Detail Screen](media/register-drawing.PNG)
+  ![Detail Screen](media/mockups/register-drawing.PNG)
 
 - Product Screen
 
-  ![Detail Screen](media/product-drawing.PNG)
+  ![Detail Screen](media/mockups/product-drawing.PNG)
 
 - Product Detail Screen
 
-  ![Detail Screen](media/all-products-drawing.PNG)
+  ![Detail Screen](media/mockups/all-products-drawing.PNG)
 
 ## Technologies
 
