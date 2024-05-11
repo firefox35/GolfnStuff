@@ -625,7 +625,9 @@ Manual testing performed as expected and accessible.
 
 Validation Testing
 
-- PYTHON - PEP8
+### Python Validation - PEP8
+
+[CI Python Linter](https://pep8ci.herokuapp.com/#) was used to validate the Python files that were created or edited by myself.
 
 | Features | Admin  | Forms  | Models | Urls   | Views  | Tests  |  Apps   | Contexts| Webhooks | Webhook Handler | Widgets | Init | Signals | 
 |----------|--------|--------|--------|--------|--------|--------|---------|---------|----------|-----------------|---------|------|---------|
@@ -636,28 +638,39 @@ Validation Testing
 |  Lessons |none ![python validation](media/python/lessons-admin.PNG)|none ![python validation](media/python/lessons-forms.PNG)|none ![python validation](media/python/lessons-models.PNG)|none ![python validation](media/python/lessons-urls.PNG)|none ![python validation](media/python/lessons-views.PNG)|none ![python validation](media/python/lessons-tests.PNG)|none ![python validation](media/python/lessons-apps.PNG) |  N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 | Products |none ![python validation](media/python/products-admin.PNG)|none ![python validation](media/python/products-forms-new.PNG)|none ![python validation](media/python/products-models.PNG)|none ![python validation](media/python/product-urls.PNG)|none ![python validation](media/python/products-views-new.PNG)|none ![python validation](media/python/products-tests.PNG)|none ![python validation](media/python/products-apps.PNG) | N/A | N/A | N/A |none ![python validation](media/python/products-widgets-new.PNG)| N/A | N/A |
 | Profiles |none ![python validation](media/python/profiles-admin.PNG)|none ![python validation](media/python/profiles-forms.PNG)|none ![python validation](media/python/profiles-models.PNG)|none ![python validation](media/python/profiles-urls.PNG)|none ![python validation](media/python/profiles-views.PNG)|none ![python validation](media/python/profiles-tests.PNG)|none ![python validation](media/python/profiles-apps.PNG) |   N/A | N/A | N/A | N/A | N/A | N/A | N/A |
-| Reviews  |none ![python validation](media/python/reviews-admin.PNG)|none ![python validation](media/python/reviews-forms.PNG)|none ![python validation](media/python/reviews-models.PNG)|none ![python validation](media/python/reviews-urls.PNG)|none ![python validation](media/python/reviews-views.PNG)|none ![python validation](media/python/reviews-tests.PNG)|none ![python validation](media/python/reviews-apps.PNG) | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
+| Reviews  |[python validation](media/python/reviews-admin.PNG) &check;|![python validation](media/python/reviews-forms.PNG) &check;|![python validation](media/python/reviews-models.PNG) &check;|![python validation](media/python/reviews-urls.PNG) &check;|![python validation](media/python/reviews-views.PNG) &check;|![python validation](media/python/reviews-tests.PNG) &check;|![python validation](media/python/reviews-apps.PNG) &check; | N/A | N/A | N/A | N/A | N/A | N/A | N/A |
 
+### Javascript Validation
 
-- HTML
+[JSHint](https://jshint.com/) was used to validate the JavaScript code added to the project.
+
+| Files | Images | Passed Vaildation |
+|-------|--------|-------------------|
+|cart.hmtl|![js validation](media/js/js-cart.PNG)|&check;|
+|stripe_elements.js|![js validation](media/js/js-checkout-stripe-elements.PNG)|&check;|
+|quantity-input-script.hmtl|![js validation](media/js/js-html-quantity-input-script.PNG)|&check;|
+|add-products.hmtl|![js validation](media/js/js-products-add-products.PNG)|&check;|
+|edit-products.hmtl|![js validation](media/js/js-products-edit-products.PNG)|&check;|
+|products.hmtl|![js validation](media/js/js-products-products.PNG)|&check;|
+|base.hmtl|![js validation](media/js/js-templates-base.PNG)|&check;|
+
+### HTML Validation
 
   - index.html
 
     ![GolfNStuff Screens](media/html-validation.PNG)
 
-- CSS Validation
+### CSS Validation
 
-  ![GolfNStuff Screens](media/css-validation.PNG)
+  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate my CSS files.
 
-  | CSS Files   | Passed Validation |
-  |-------------|-------------------|
-  | bass.css    | &check; |
-  | checkout.css| &check; |
-  | profile.css | &check; |
-  | review.css  | &check; |
-
-    
-
+  | CSS Files   |      Images       | Passed Validation |
+  |-------------|-------------------|-------------------|
+  | bass.css    |![CSS-Validation](media/css-validation.PNG)| &check; |
+  | checkout.css|![CSS-Validation](media/css-validation.PNG)| &check; |
+  | profile.css |![CSS-Validation](media/css-validation.PNG)| &check; |
+  | review.css  |![CSS-Validation](media/css-validation.PNG)| &check; |
+   
 - Unfixed Bugs
 
   - Responsiveness of the website worked on all devices and screen sizes
