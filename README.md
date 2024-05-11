@@ -623,7 +623,7 @@ Manual testing performed as expected and accessible.
 |-----------------------|------------------------------------------------------------------------------|----------|--------|
 | Details of the Review | 1. The user can click the product to view the details from the review screen.| Passed   | &check;|
 
-Validation Testing
+## Validation Testing
 
 ### Python Validation - PEP8
 
@@ -657,7 +657,7 @@ Validation Testing
 
 | Features | Admin  | Forms  | Models | Urls   | Views  | Tests  |  Apps   | Widgets | Passed All Validation | 
 |----------|--------|--------|--------|--------|--------|--------|---------|---------|-----------------------|
-| Products |![python validation](media/python/products-admin.PNG)|![python validation](media/python/products-forms-new.PNG)|![python validation](media/python/products-models.PNG)|![python validation](media/python/product-urls.PNG)|![python validation](media/python/products-views-new.PNG)|![python validation](media/python/products-tests.PNG)|![python validation](media/python/products-apps.PNG)|![python validation](media/python/products-widgets-new.PNG)|&check;|
+| Products |![python validation](media/python/products-admin.PNG)|![python validation](media/python/products-forms.PNG)|![python validation](media/python/products-models.PNG)|![python validation](media/python/product-urls.PNG)|![python validation](media/python/products-views-new.PNG)|![python validation](media/python/products-tests.PNG)|![python validation](media/python/products-apps.PNG)|![python validation](media/python/products-widgets-new.PNG)|&check;|
 
 
 | Features | Admin  | Forms  | Models | Urls   | Views  | Tests  |  Apps   | Passed All Validation | 
