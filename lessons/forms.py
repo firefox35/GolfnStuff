@@ -13,7 +13,7 @@ class LessonForm(forms.ModelForm):
                     'type': "datetime-local"
                 }
             ),
-            initial='2023-07-10'
+            initial='YYYY-MM-DD'
     )
 
     class Meta:
