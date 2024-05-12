@@ -705,7 +705,7 @@ Manual testing performed as expected and accessible.
 |https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=woods|![Html Validation](media/html/html-woods.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=putters|![Html Validation](media/html/html-putters.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=wedges|![Html Validation](media/html/html-wedges.PNG)|&check;|
-|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=shirts|![Html Validation](media/html/hmtl-shirts.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=shirts|![Html Validation](media/html/html-shirts.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=trousers|![Html Validation](media/html/html-trousers.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=tops |![Html Validation](media/html/html-tops.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=jackets|![Html Validation](media/html/html-jackets.PNG)|&check;|
@@ -716,12 +716,12 @@ Manual testing performed as expected and accessible.
 |https://golfnstuff-ee9465ae2158.herokuapp.com/reviews/reviews/|![Html Validation](media/html/html-reviews.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/contact/add_contact/|![Html Validation](media/html/html-add-contact.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/products/?sort=price&direction=asc|![Html Validation](media/html/html-sort-by-price.PNG)|&check;|
-|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?sort=rating&direction=desc|![Html Validation](media/html/html-sort-by-rating.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?sort=rating&direction=desc|![Html Validation](media/html/html-sort-by-ratings.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/products/?sort=category&direction=asc|![Html Validation](media/html/html-sort-by-category.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/products/|![Html Validation](media/html/html-products.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/products/add/|![Html Validation](media/html/html-add-product.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/profile/|![Html Validation](media/html/html-profile.PNG)|&check;|
-|https://golfnstuff-ee9465ae2158.herokuapp.com/reviews/about/|![Html Validation](media/html/html-review-detail.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/reviews/about/|![Html Validation](media/html/html-review-details.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/reviews/|![Html Validation](media/html/html-reviews.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/reviews/add_review/|![Html Validation](media/html/html-add-review.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/cart/|![Html Validation](media/html/html-cart.PNG)|&check;|
