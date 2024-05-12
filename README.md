@@ -697,26 +697,35 @@ Manual testing performed as expected and accessible.
 
     ![GolfNStuff Screens](media/html-validation.PNG)
 
-|     Files    |                 Image            |  Passed Validation |
-|--------------|----------------------------------|--------------------|
-| cart.html            |![Html Validation](media/html/cart-html.PNG)|&check;|
-| checkout_success.html|![Html Validation](media/html/checkout-success-html.PNG)|&check;|
-| checkout.html        |![Html Validation](media/html/checkout-html.PNG)|&check;|
-| add_contact.html     |![Html Validation](media/html/add-contact-html.PNG)|&check;|
-| contact.html         |![Html Validation](media/html/contact-html.PNG)|&check;|
-| index.html           |![Html Validation](media/html/index-html.PNG)|&check;|
-| lesson.html          |![Html Validation](media/html/validation.PNG)|&check;|
-| lessons.html         |![Html Validation](media/html/validation.PNG)|&check;|
-| custom_clearable_file_input.html |![Html Validation](media/html/validation.PNG)|&check;|
-| add_product.html     |![Html Validation](media/html/validation.PNG)|&check;|
-| edit_product.html    |![Html Validation](media/html/validation.PNG)|&check;|
-| product_detail.html  |![Html Validation](media/html/validation.PNG)|&check;|
-| products.html        |![Html Validation](media/html/validation.PNG)|&check;|
-| profile.html         |![Html Validation](media/html/validation.PNG)|&check;|
-| about.html           |![Html Validation](media/html/validation.PNG)|&check;|
-| index.html           |![Html Validation](media/html/validation.PNG)|&check;|
-| index.html           |![Html Validation](media/html/validation.PNG)|&check;|
-| index.html           |![Html Validation](media/html/validation.PNG)|&check;|
+|     Website Pages    |                 Image            |  Passed Validation |
+|----------------------|----------------------------------|--------------------|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/|![Html Validation](media/html/cart-html.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=irons|![Html Validation](media/html/checkout-success-html.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=drivers|![Html Validation](media/html/checkout-html.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=woods|![Html Validation](media/html/add-contact-html.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=putters|![Html Validation](media/html/contact-html.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=wedges|![Html Validation](media/html/index-html.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=shirts|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=trousers|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=tops |![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=jackets|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=gloves_tees|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=footwear|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?category=trolleys|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/lessons/lessons/|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/reviews/reviews/|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/contact/add_contact/|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?sort=price&direction=asc|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?sort=rating&direction=desc|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/?sort=category&direction=asc|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/add/|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/profile/|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/reviews/about/|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/reviews/|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/reviews/add_review/|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/cart/|![Html Validation](media/html/validation.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/contact/add_contact/|![Html Validation](media/html/validation.PNG)|&check;|
 
 ### CSS Validation
 
