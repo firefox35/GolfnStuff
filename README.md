@@ -521,10 +521,10 @@ Lighthouse testing was carried out in Incognito mode to achieve the best result.
 |--------------------------------------------------------|--------------------------------------------------------|
 |https://golfnstuff-ee9465ae2158.herokuapp.com           |![lighthouse](media/lighthouse/Lighthouse-home.PNG)     |
 |https://golfnstuff-ee9465ae2158.herokuapp.com/products/ |![lighthouse](media/lighthouse/Lighthouse-products.PNG) |
-|https://golfnstuff-ee9465ae2158.herokuapp.com/products/ |![lighthouse](media/lighthouse/Lighthouse-cart.PNG)     |
-|https://golfnstuff-ee9465ae2158.herokuapp.com/products/ |![lighthouse](media/lighthouse/Lighthouse-lessons.PNG)  |
-|https://golfnstuff-ee9465ae2158.herokuapp.com/products/ |![lighthouse](media/lighthouse/Lighthouse-reviews.PNG)  |
-|https://golfnstuff-ee9465ae2158.herokuapp.com/products/ |![lighthouse](media/lighthouse/Lighthouse-signup.PNG)   |
+|https://golfnstuff-ee9465ae2158.herokuapp.com/cart/     |![lighthouse](media/lighthouse/lighthouse-cart.PNG)     |
+|https://golfnstuff-ee9465ae2158.herokuapp.com/lessons/lessons/ |![lighthouse](media/lighthouse/Lighthouse-lessons.PNG)  |
+|https://golfnstuff-ee9465ae2158.herokuapp.com/reviews/reviews/ |![lighthouse](media/lighthouse/Lighthouse-reviews.PNG)  |
+|https://golfnstuff-ee9465ae2158.herokuapp.com/signup/ |![lighthouse](media/lighthouse/Lighthouse-signup.PNG)   |
 
 
 ### Functional Testing
