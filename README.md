@@ -726,6 +726,8 @@ Manual testing performed as expected and accessible.
 |https://golfnstuff-ee9465ae2158.herokuapp.com/reviews/add_review/|![Html Validation](media/html/html-add-review.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/cart/|![Html Validation](media/html/html-cart.PNG)|&check;|
 |https://golfnstuff-ee9465ae2158.herokuapp.com/contact/add_contact/|![Html Validation](media/html/html-add-contact.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/accounts/login/|![Html Validation](media/html/html-login.PNG)|&check;|
+|https://golfnstuff-ee9465ae2158.herokuapp.com/accounts/signup/|![Html Validation](media/html/html-signup.PNG)|&check;|
 
 ### CSS Validation
 
