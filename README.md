@@ -63,10 +63,30 @@ Goals for the website
 ## Project Planning
 
 ### Customer Goals
-We provided an easy online experience for our customers to navigate our website whether it's purchasing online products or booking a golf lesson on the day. 
+
+We provided an easy online experience for our customers to navigate our website whether it's purchasing online products or booking a golf lesson on the day. As our customers are very important to us and provide a top quantity service and product that will have customers coming back time after time, it will only benefit the business and enhance our business reputation and drive our business forward. 
+
 ### Business Goals
 
+The business goals is to provide the business owner to have an easy experience with the functionality of the website via the Admin section to control the website by making charges to meet the owner requirement whether is adding a product to the website or amending the pricing structure to take control which make the business a hassle free product to use and to make it some that any person could use the application when required where at a touch of a button they are control and provide the customer with a easy experience when purchasing something online.
+
 ### Marketing
+
+The use of social media marketing is very important as it has a large volume of traffic with regards to customers purchasing online in which the visibility of the site will increase. I used Facebook to market the business which has a large customer base at the touch of a button.
+
+I created the Facebook page using the template provided by Facebook which is currently live. 
+<https://www.facebook.com/profile.php?id=61557411004879>
+
+![Facebook GolfnStuff](media/golfnstuff-facebook-page.PNG)
+
+MailChimp is another way that we have marketed our webite by sending out a monthly newsletter once you submit your email address.
+
+![MailChimp Newsletter](media/mailchimp.PNG)
+
+### Search Engine Optimization
+
+The meta keywords and description in base.html have been amended to the researched keywords.The homepage has also been designed with SEO in mind, to give more traffic to the site in looking for keywords when searching for the certain items in the browser.
+The purpose for the SEO was to added a sitemap.xml and robots.txt file to the website's root directory for the search engines to find the site. A sitemap is a method of classifying a website, indicating the URLs and the information contained within each section. The sitemap.xml was generated using XML Sitemap and included in the root folder of the project.  
 
 
 ## Agile Development
