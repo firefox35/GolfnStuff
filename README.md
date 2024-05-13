@@ -515,13 +515,17 @@ Manual testing performed as expected and accessible.
 
 ## Lighthouse Testing
 
-- index.html
+Lighthouse testing was carried out in Incognito mode to achieve the best result.
 
-![Lighthouse Result](media/hw-lighthouse.PNG)
+|              Webpage                                   |                      Result                            |
+|--------------------------------------------------------|--------------------------------------------------------|
+|https://golfnstuff-ee9465ae2158.herokuapp.com           |![lighthouse](media/lighthouse/Lighthouse-home.PNG)     |
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/ |![lighthouse](media/lighthouse/Lighthouse-products.PNG) |
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/ |![lighthouse](media/lighthouse/Lighthouse-cart.PNG)     |
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/ |![lighthouse](media/lighthouse/Lighthouse-lessons.PNG)  |
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/ |![lighthouse](media/lighthouse/Lighthouse-reviews.PNG)  |
+|https://golfnstuff-ee9465ae2158.herokuapp.com/products/ |![lighthouse](media/lighthouse/Lighthouse-signup.PNG)   |
 
-- reviews.html
-  
-![Lighthouse Result](media/hw-lighthouse-reviews.PNG)
 
 ### Functional Testing
 
@@ -693,9 +697,7 @@ Manual testing performed as expected and accessible.
 
 ### HTML Validation
 
-  - index.html
-
-    ![GolfNStuff Screens](media/html-validation.PNG)
+[HTML Validator](https://validator.w3.org) was used to validate all of my HTML files. This was done by entering the heroku website address of each page into the vaildator to validate the code. This process it the easiest way to find errors than pasting the code.
 
 |     Website Pages    |                 Image            |  Passed Validation |
 |----------------------|----------------------------------|--------------------|
@@ -731,7 +733,7 @@ Manual testing performed as expected and accessible.
 
 ### CSS Validation
 
-  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate my CSS files.
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate my CSS files.
 
   | CSS Files   |      Images       | Passed Validation |
   |-------------|-------------------|-------------------|

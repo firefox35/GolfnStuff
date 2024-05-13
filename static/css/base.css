@@ -13,7 +13,11 @@ footer{
   flex-grow: 1;
   
 }
-  
+ 
+.content{
+  flex-grow: 1;
+}
+
 .main {
   height: 100%;
   background: no-repeat;
